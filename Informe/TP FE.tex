@@ -48,9 +48,9 @@ Primero se analizaron tres diodos distintos: rectificador 1N4148, zener y LED ro
 \begin{circuitikz}
 \draw
 	(4,0)	to (0,0)
-	(0,2)	to [sV,v_=$V$]	(0,0)
-	(0,2)	to [R=$ 470 \ \Omega $]	(4,2)
-	(4,0)	to [Do, l_=Diodo analizado]	(4,2)
+	(0,1.5)	to [sV,v_=$V$]	(0,0)
+	(0,1.5)	to [R=$ 470 \ \Omega $]	(4,1.5)
+	(4,0)	to [Do, l_=Diodo analizado]	(4,1.5)
 ;\end{circuitikz}
 \end{center}
 \caption{Circuito utilizado para medir los diodos.}
@@ -112,12 +112,12 @@ Luego se simuló el siguiente circuito
 	(7,2)	to	[C, l_=$C_{out}$]	(4.5,2)
 	
 ;\end{circuitikz}
-\caption{Circuito estudiado.}
+\caption{Circuito analizado en la segunda instancia.}
 \end{center}
 \label{circ:2}
 \end{figure}
 
-Analizando la función transferencia de tensión de este, se observa que, para una $V_{in}$ arbitraria 
+Analizando la función transferencia de tensión de este, se observa que, para una $V_{in}$ arbitraria
 \begin{equation}
 H(s) = \frac{V_{out}}{V_{in}} = \frac{5.22 \cdot 10^{-16} \ V}{5 \ V} \approx 0
 \end{equation}
@@ -130,10 +130,10 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 \draw
 	(0,0)	to (4,0)
 	(0,1.5)	to [sV,v_=$AC$]	(0,0)
-	(0,3)	to [V,v_=$DC$]	(0,1.5)
-	(0,3)	to [R=$ R_G $]	(2,3)
-	(2,3)	to [R=$ R $]	(4,3)
-	(4,0)	to [Do, l_=D1N4007]	(4,3)
+	(0,2.5)	to [V,v_=$DC$]	(0,1.5)
+	(0,2.5)	to [R=$ R_G $]	(2,2.5)
+	(2,2.5)	to [R=$ R $]	(4,2.5)
+	(4,0)	to [Do, l_=D1N4007]	(4,2.5)
 ;\end{circuitikz}
 \end{center}
 \caption{Circuito utilizado para medir los diodos.}
