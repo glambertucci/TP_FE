@@ -117,10 +117,14 @@ Luego se simuló el siguiente circuito
 \label{circ:2}
 \end{figure}
 
-Analizando la función transferencia de tensión de este, se observa que, para una $V_{in}$ arbitraria
-\begin{equation}
-H(s) = \frac{V_{out}}{V_{in}} = \frac{5.22 \cdot 10^{-16} \ V}{5 \ V} \approx 0
-\end{equation}
+Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $44,36 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\textwidth]{RtaF2_1}	
+	\caption{Diagrama de BODE para el cirucito dado.}
+	\label{fig:bode}
+\end{figure}
 
 Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
@@ -142,7 +146,7 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{RtaF3_2}					%DETERMINAR SI USAR RtaF3_1 O RtaF3_2
+	\includegraphics[width=0.99\textwidth]{RtaF3_1}					%DETERMINAR SI USAR RtaF3_1 O RtaF3_2
 	\caption{Respuesta en frecuencia del diodo D1N4007.}
 	\label{fig:rtaf}
 \end{figure}
@@ -151,8 +155,7 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
 
-Luego se comprobó que, la función transferencia del segundo análisis, puede ser considerada nula, sin importar la tensión de entrada ...
-
+Luego se comprobó que, la función transferencia del segundo análisis, para frecuencias donde se mantiene constante, es proximo al real.
 Por último, la respuesta en frecuencia mostró ...
 
 
