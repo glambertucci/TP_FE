@@ -1,0 +1,120 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {./Imagenes/} }
+
+\usepackage[american voltages,american currents]{circuitikz}
+
+\usepackage{fancyhdr}
+
+\usepackage{units} 
+
+\pagestyle{fancy}
+\fancyhf{}
+%\lhead{23.09 Física Electrónica}
+\rhead{Bertachini, Lambertucci, Londero, Mechoulam, Musich}
+\rfoot{Página \thepage}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%								CARATULA								%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\input{Caratula.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%								INFORME									%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Introducción}
+
+En el trabajo presente se llevó adelante el estudio de distintos tipos de diodos y circuitos, con el objetivo de llevar a la práctica la teoría estudiada en clases.
+
+\section*{Desarrollo de la experiencia}
+
+Primero se analizaron tres diodos distintos: rectificador 1N4148, zener y LED rojo, conectados de la forma presentada en el circuito (\ref{circ:1}).
+
+\begin{figure}[H]
+\begin{center}
+\begin{circuitikz}
+\draw
+	(4,0)	to (0,0)
+	(0,2)	to [sV,v=$V$]	(0,0)
+	(0,2)	to [R=$ 470 \Omega $]	(4,2)
+	(4,0)	to [Do]	(4,2)
+;\end{circuitikz}
+\end{center}
+\caption{Circuito utilizado para medir los diodos.}
+\label{circ:1}
+\end{figure}
+
+Utilizando multimetros se observó el comportamiento de estos para ciertas tensiones y posteriormente se graficaron las curvas correspondiente a cada uno.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{CurvaDiodoRectificador}
+	\caption{Corriente en función de la tensión del diodo rectificador 1N4148.}
+	\label{fig:diodorect}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{CurvaZenerEntera}
+	\caption{Corriente en función de la tensión del diodo zener.}
+	\label{fig:diodozen}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{CurvaDiodosLed}
+	\caption{Corriente en función de la tensión del diodo LED.}
+	\label{fig:diodoled}
+\end{figure}
+
+Luego se simuló el circuito dado por la cátedra. Analizando la función transferencia de tensión de este, se observa que, para una $V_{in}$ arbitraria 
+\begin{equation}
+H(s) = \frac{V_{out}}{V_{in}} = \frac{5.22 \cdot 10^{-16} \ V}{5 \ V} \approx 0
+\end{equation}
+
+Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
+
+\begin{figure}[H]
+\begin{center}
+\begin{circuitikz}
+\draw
+	(0,0)	to (4,0)
+	(0,1.5)	to [sV,v=$AC$]	(0,0)
+	(0,3)	to [V,v=$DC$]	(0,1.5)
+	(0,3)	to [R=$ R_G $]	(2,3)
+	(2,3)	to [R=$ R $]	(4,3)
+	(4,0)	to [Do]	(4,3)
+;\end{circuitikz}
+\end{center}
+\caption{Circuito utilizado para medir los diodos.}
+\label{circ:3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{RtaF3_2}
+	\caption{Respuesta en frecuencia del diodo D1N4007.}
+	\label{fig:rtaf}
+\end{figure}
+
+\section*{Conclusión}
+
+Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
+
+
+
+\end{document}
+
