@@ -48,9 +48,9 @@ Primero se analizaron tres diodos distintos: rectificador 1N4148, zener y LED ro
 \begin{circuitikz}
 \draw
 	(4,0)	to (0,0)
-	(0,2)	to [sV,v=$V$]	(0,0)
-	(0,2)	to [R=$ 470 \Omega $]	(4,2)
-	(4,0)	to [Do]	(4,2)
+	(0,2)	to [sV,v_=$V$]	(0,0)
+	(0,2)	to [R=$ 470 \ \Omega $]	(4,2)
+	(4,0)	to [Do, l_=Diodo analizado]	(4,2)
 ;\end{circuitikz}
 \end{center}
 \caption{Circuito utilizado para medir los diodos.}
@@ -92,11 +92,11 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 \begin{circuitikz}
 \draw
 	(0,0)	to (4,0)
-	(0,1.5)	to [sV,v=$AC$]	(0,0)
-	(0,3)	to [V,v=$DC$]	(0,1.5)
+	(0,1.5)	to [sV,v_=$AC$]	(0,0)
+	(0,3)	to [V,v_=$DC$]	(0,1.5)
 	(0,3)	to [R=$ R_G $]	(2,3)
 	(2,3)	to [R=$ R $]	(4,3)
-	(4,0)	to [Do]	(4,3)
+	(4,0)	to [Do, l_=D1N4007]	(4,3)
 ;\end{circuitikz}
 \end{center}
 \caption{Circuito utilizado para medir los diodos.}
@@ -105,7 +105,7 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{RtaF3_2}
+	\includegraphics[width=0.6\textwidth]{RtaF3_2}					%DETERMINAR SI USAR RtaF3_1 O RtaF3_2
 	\caption{Respuesta en frecuencia del diodo D1N4007.}
 	\label{fig:rtaf}
 \end{figure}
@@ -114,6 +114,9 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
 
+Luego se comprobó que, la función transferencia del segundo análisis, puede ser considerada nula, sin importar la tensión de entrada ...
+
+Por último, la respuesta en frecuencia mostró ...
 
 
 \end{document}
