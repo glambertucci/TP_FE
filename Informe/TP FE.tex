@@ -49,7 +49,7 @@ Primero se analizaron tres diodos distintos: rectificador 1N4148, zener y LED ro
 \draw
 	(4,0)	to (0,0)
 	(0,1.5)	to [sV,v_=$V$]	(0,0)
-	(0,1.5)	to [R=$ 470 \ \Omega $]	(4,1.5)
+	(0,1.5)	to [R, l_=$ 470 \ \Omega $]	(4,1.5)
 	(4,0)	to [Do, l_=Diodo analizado]	(4,1.5)
 ;\end{circuitikz}
 \end{center}
@@ -80,48 +80,51 @@ Utilizando multimetros se observó el comportamiento de estos para ciertas tensi
 	\label{fig:diodoled}
 \end{figure}
 
-Luego se simuló el siguiente circuito
 
-\begin{figure}[H]
-\begin{center}
-\begin{circuitikz}
-\draw
-	(0,1.5)	to	[sV,v_=$AC$]	(0,-1)
-	(0,1.5)	to	[R=$R_G$]	(1.5,1.5)
-	(1.5,1.5)	to	[C, l=$C_{in}$]	(3,1.5)
-	(0,-1)	to	(4.5,-1)
-	(3,-1)	to	[R, l=$R_2$]	(3,1.5)
-	(3,1.5)	to	[R, l_=$R_1$]	(3,4)
-	(3,4)	to	[V,v_=$VCC$]	(1,4)	node[sground]{}	
-	(3,4)	to	(4.5,4)
-	(3,1.5)	to	(4,1.5)
-	
-	(4.5,1.5) node[npn,name=npn]{}
-%	(3,1.5)	to	(4.5,1.5) node[npn,name=npn]{}
 
-	(4.5,4)	to	[R, l=$R_C$]	(4.5,2)
-%	(4.5,4)	to	[R, l=$R_C$]	(npn)
+%Luego se simuló el siguiente circuito
+%
+%\begin{figure}[H]
+%\begin{center}
+%\begin{circuitikz}
+%\draw
+%	(0,1.5)	to	[sV,v_=$AC$]	(0,-1)
+%	(0,1.5)	to	[R=$R_G$]	(1.5,1.5)
+%	(1.5,1.5)	to	[C, l=$C_{in}$]	(3,1.5)
+%	(0,-1)	to	(4.5,-1)
+%	(3,-1)	to	[R, l=$R_2$]	(3,1.5)
+%	(3,1.5)	to	[R, l_=$R_1$]	(3,4)
+%	(3,4)	to	[V,v=$VCC$]	(1,4)	node[sground]{}	
+%	(3,4)	to	(4.5,4)
+%	(3,1.5)	to	(4,1.5)
+%	
+%	(4.5,1.5) node[npn,name=npn]{}
+%%	(3,1.5)	to	(4.5,1.5) node[npn,name=npn]{}
+%
+%	(4.5,4)	to	[R, l=$R_C$]	(4.5,2)
+%%	(4.5,4)	to	[R, l=$R_C$]	(npn)
+%
+%	(4.5,0.75)	to	[R, l_=$R_E$]	(4.5,-1)	
+%
+%	(4.5,-1)	to	(7,-1) node[sground]{}	
+%	(4.5,0.75)	to	(6,0.75)
+%	(6,0.75) to [C, l_=$C_{E}$]	(6,-1)
+%	
+%	(7,-1)	to	[R, l_=$R_L$]	(7,2)
+%	(7,2)	to	[C, l_=$C_{out}$]	(4.5,2)
+%	
+%;\end{circuitikz}
+%\caption{Circuito analizado en la segunda instancia.}
+%\end{center}
+%\label{circ:2}
+%\end{figure}
 
-	(4.5,0.75)	to	[R, l_=$R_E$]	(4.5,-1)	
-
-	(4.5,-1)	to	(7,-1) node[sground]{}	
-	(4.5,0.75)	to	(6,0.75)
-	(6,0.75) to [C, l_=$C_{E}$]	(6,-1)
-	
-	(7,-1)	to	[R, l_=$R_L$]	(7,2)
-	(7,2)	to	[C, l_=$C_{out}$]	(4.5,2)
-	
-;\end{circuitikz}
-\caption{Circuito analizado en la segunda instancia.}
-\end{center}
-\label{circ:2}
-\end{figure}
-
+Luego se simuló el circuito brindado por la cátedra.
 Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $44,36 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.99\textwidth]{RtaF2_1}	
+	\includegraphics[width=0.99\textwidth]{RtaF2}	
 	\caption{Diagrama de BODE para el cirucito dado.}
 	\label{fig:bode}
 \end{figure}
@@ -135,8 +138,8 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 	(0,0)	to (4,0)
 	(0,1.5)	to [sV,v_=$AC$]	(0,0)
 	(0,2.5)	to [V,v_=$DC$]	(0,1.5)
-	(0,2.5)	to [R=$ R_G $]	(2,2.5)
-	(2,2.5)	to [R=$ R $]	(4,2.5)
+	(0,2.5)	to [R, l_=$ R_G $]	(2,2.5)
+	(2,2.5)	to [R, l_=$ R $]	(4,2.5)
 	(4,0)	to [Do, l_=D1N4007]	(4,2.5)
 ;\end{circuitikz}
 \end{center}
@@ -146,7 +149,7 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.99\textwidth]{RtaF3_1}					%DETERMINAR SI USAR RtaF3_1 O RtaF3_2
+	\includegraphics[width=0.99\textwidth]{RtaF3}	
 	\caption{Respuesta en frecuencia del diodo D1N4007.}
 	\label{fig:rtaf}
 \end{figure}
@@ -155,8 +158,9 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
 
-Luego se comprobó que, la función transferencia del segundo análisis, para frecuencias donde se mantiene constante, es proximo al real.
-Por último, la respuesta en frecuencia mostró ...
+Luego se comprobó que, la función transferencia del segundo análisis, para frecuencias donde se mantiene constante, se adecua al real.
+
+Por último, la respuesta en frecuencia del último punto mostró 
 
 
 \end{document}
