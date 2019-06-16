@@ -138,8 +138,8 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 	(0,0)	to (4,0)
 	(0,1.5)	to [sV,v_=$AC$]	(0,0)
 	(0,2.5)	to [V,v_=$DC$]	(0,1.5)
-	(0,2.5)	to [R, l_=$ R_G $]	(2,2.5)
-	(2,2.5)	to [R, l_=$ R $]	(4,2.5)
+	(0,2.5)	to[R,l=$R_G$,a=50<\ohm>] (2,2.5)
+	(2,2.5)	to[R,l=$R$,a=0.5M<\ohm>] 	(4,2.5)
 	(4,0)	to [Do, l_=D1N4007]	(4,2.5)
 ;\end{circuitikz}
 \end{center}
