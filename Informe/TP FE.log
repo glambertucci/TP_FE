@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2019.3.24)  15 JUN 2019 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2019.3.24)  17 JUN 2019 00:57
 entering extended mode
 **"./TP FE.tex"
 ("TP FE.tex"
@@ -1030,7 +1030,7 @@ es/RtaF2.png>]
 File: ./Imagenes/RtaF3.png Graphic file (type png)
 
 <use ./Imagenes/RtaF3.png>
-Package pdftex.def Info: ./Imagenes/RtaF3.png used on input line 152.
+Package pdftex.def Info: ./Imagenes/RtaF3.png used on input line 154.
 (pdftex.def)             Requested size: 341.5519pt x 164.17279pt.
  [3 <./Imagenes/RtaF3.png>] ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
@@ -1041,10 +1041,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21248 strings out of 493333
- 490518 string characters out of 3129275
- 605870 words of memory out of 3000000
- 24432 multiletter control sequences out of 15000+200000
+ 21252 strings out of 493333
+ 490600 string characters out of 3129275
+ 606869 words of memory out of 3000000
+ 24436 multiletter control sequences out of 15000+200000
  17392 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,55p,413b,904s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1058,7 +1058,7 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local
 /cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "TP FE.pdf" (4 pages, 266296 bytes).
+Output written on "TP FE.pdf" (4 pages, 267837 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

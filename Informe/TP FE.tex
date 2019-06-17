@@ -138,8 +138,10 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 	(0,0)	to (4,0)
 	(0,1.5)	to [sV,v_=$AC$]	(0,0)
 	(0,2.5)	to [V,v_=$DC$]	(0,1.5)
-	(0,2.5)	to[R,l=$R_G$,a=50<\ohm>] (2,2.5)
-	(2,2.5)	to[R,l=$R$,a=0.5M<\ohm>] 	(4,2.5)
+	%(0,2.5)	to[R,l=$R_G$,a=50<\ohm>] (2,2.5)
+	(0,2.5)	to[R,l=$R_G$] (2,2.5)
+	%(2,2.5)	to[R,l=$R$,a=0.5M<\ohm>] 	(4,2.5)
+	(2,2.5)	to[R,l=$R$] 	(4,2.5)
 	(4,0)	to [Do, l_=D1N4007]	(4,2.5)
 ;\end{circuitikz}
 \end{center}
@@ -160,7 +162,7 @@ Los resultados obtenidos al estudiar los tres primeros diodos se corresponden co
 
 Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
 
-Por último, la respuesta en frecuencia del último punto mostró un decaimiento exponencial para las frecuencias altas
+Por último, la respuesta en frecuencia del último punto mostró un decaimiento exponencial para las frecuencias altas. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1
 
 
 \end{document}
