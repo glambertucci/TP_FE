@@ -61,21 +61,21 @@ Utilizando multimetros se observó el comportamiento de estos para ciertas tensi
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{CurvaDiodoRectificador}
+	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{{CurvaDiodoRectificador.png}}
 	\caption{Corriente en función de la tensión del diodo rectificador 1N4148.}
 	\label{fig:diodorect}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{CurvaZenerEntera}
+	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{CurvaZenerEntera.png}
 	\caption{Corriente en función de la tensión del diodo zener.}
 	\label{fig:diodozen}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{CurvaDiodosLed}
+	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{CurvaDiodosLed.png}
 	\caption{Corriente en función de la tensión del diodo LED.}
 	\label{fig:diodoled}
 \end{figure}
@@ -124,7 +124,7 @@ Analizando la función transferencia de tensión de este, se observa que la tran
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.99\textwidth]{RtaF2}	
+	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{RtaF2.png}	
 	\caption{Diagrama de BODE para el cirucito dado.}
 	\label{fig:bode}
 \end{figure}
@@ -135,12 +135,13 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 \begin{center}
 \begin{circuitikz}
 \draw
+
 	(0,0)	to (4,0)
 	(0,1.5)	to [sV,v_=$AC$]	(0,0)
 	(0,2.5)	to [V,v_=$DC$]	(0,1.5)
-	%(0,2.5)	to[R,l=$R_G$,a=50<\ohm>] (2,2.5)
+	(0,2.5)	to[R,l=$R_G$,a=$50\omega$] (2,2.5)
 	(0,2.5)	to[R,l=$R_G$] (2,2.5)
-	%(2,2.5)	to[R,l=$R$,a=0.5M<\ohm>] 	(4,2.5)
+	(2,2.5)	to[R,l=$R$,a=$0.5M\omega$] 	(4,2.5)
 	(2,2.5)	to[R,l=$R$] 	(4,2.5)
 	(4,0)	to [Do, l_=D1N4007]	(4,2.5)
 ;\end{circuitikz}
@@ -151,33 +152,43 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.99\textwidth]{RtaF3}	
+	\includegraphics[width=0.8\textwidth,natwidth=10,natheight=10]{RtaF3.png}	
 	\caption{Respuesta en frecuencia del diodo D1N4007.}
 	\label{fig:rtaf}
 \end{figure}
-Podemos observar que estamos en presencia de un filtro pasabajos con una frecuencia de corte estimada de 165KHz. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1.
+Como se puede observar en el gráfico, estamos en presencia de un filtro pasabajos con una frecuencia de corte estimada de 165KHz. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1.
 El comportamiento del diodo se asocia con el de un capacitor, el valor equivalente de dicho capacitor será calculado como:
 \begin{center}
-c=\dfrac{1}{2\pi Rf}
-\end{center}
-Por otro lado la resistencia del circuito eqivalente será:
-\begin{center}
-R=\dfrac{R_D}{R_D*R_G*100K\ohm}
+$c=\dfrac{1}{2\pi Rf}$
 \end{center}
 Los valores obtenidos fueron los siguientes:
 \begin{center}
-R=\tab C= 
+$C= 1,93 pF$
 \end{center}
-El circuito equivalente será:
 
+\begin{figure}[H]
+\begin{center}\begin{circuitikz}[scale=1.6]\draw
+(0,1) to[V, l=$DC$,a=$5V$] (0,2)
+(0,0) to[sV, l=$AC$,a=$1V$] (0,1)
+(0,2) to[R,l=$R_G$]  (2,2)
+(2,2) -- (4,2)
+(2,2) to[R,l=$R_D$,a=$0.5M\omega$] (2,0)
+(4,0)	to [C, l=$C$,a=1.93pF]	(4,2)
+(0,0) -- (4,0);
+\end{circuitikz} 
+\caption{Circuito equivalente del diodo}
+\end{center}
+\end{figure}
+
+El fabricante en su hoja de datos declara una capacitancia de juntura típica de $15 pF$.
 
 \section*{Conclusión}
 
 Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
-
+\vfill
 Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
-
-Por último, la respuesta en frecuencia del último punto mostró un decaimiento exponencial para las frecuencias altas. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1. 
+\vfill
+Por último, la respuesta en frecuencia del último punto mostró que un diodo conectado de esa forma se puede asociar a un capacitor. Esto se sustenta en que la capacitancia declarada por el fabricante es similar a la obtenida mediante un proceso de simulación.
 
 
 \end{document}
