@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=latex 2019.3.9)  23 JUN 2019 20:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=latex 2019.3.9)  23 JUN 2019 20:29
 entering extended mode
 **"./TP FE.tex"
 ("TP FE.tex"
@@ -865,10 +865,7 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip55
 \L@UnitsRaiseTextstyle=\skip56
 \L@UnitsRaiseScriptstyle=\skip57
-)) ("TP FE.aux"
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-)
+)) ("TP FE.aux")
 \openout1 = `"TP FE.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -901,31 +898,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ])
+
+LaTeX Warning: Reference `circ:1' on page 1 undefined on input line 44.
+
 \realshift=\dimen184
 \realshift=\dimen185
 
-
-! LaTeX Error: Cannot determine size of graphic in ./Imagenes/CurvaDiodoRectifi
-cador.png (no BoundingBox).
+! LaTeX Error: File `CurvaDiodoRectificador' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 ...8\textwidth]{{CurvaDiodoRectificador.png}}
+l.65 ...le=1,bb=0 0 30 30]{CurvaDiodoRectificador}
                                                   
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-File: ./Imagenes/CurvaDiodoRectificador.png Graphic file (type eps)
-<./Imagenes/CurvaDiodoRectificador.png>
 File: ./Imagenes/CurvaZenerEntera.png Graphic file (type eps)
- <./Imagenes/CurvaZenerEntera.png>
-[1]
+<./Imagenes/CurvaZenerEntera.png> [1]
 File: ./Imagenes/CurvaDiodosLed.png Graphic file (type eps)
  <./Imagenes/CurvaDiodosLed.png> [2]
 File: ./Imagenes/RtaF2.png Graphic file (type eps)
- <./Imagenes/RtaF2.png> [3]
+
+<./Imagenes/RtaF2.png> [3]
+
+LaTeX Warning: Reference `circ:3' on page 4 undefined on input line 133.
+
 \realshift=\dimen186
 \realshift=\dimen187
 \realshift=\dimen188
@@ -934,7 +935,6 @@ File: ./Imagenes/RtaF2.png Graphic file (type eps)
 \realshift=\dimen191
 \realshift=\dimen192
 File: ./Imagenes/RtaF3.png Graphic file (type eps)
-
 <./Imagenes/RtaF3.png> [4]
 \realshift=\dimen193
 \realshift=\dimen194
@@ -945,21 +945,32 @@ File: ./Imagenes/RtaF3.png Graphic file (type eps)
 \realshift=\dimen199
 \realshift=\dimen256
 \realshift=\dimen257
- [5] [6] ("TP FE.aux"
+ [5]
+
+LaTeX Warning: Reference `fig:diodorect' on page 6 undefined on input line 188.
+
+
+[6] ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 23407 strings out of 493334
- 565279 string characters out of 3136635
- 709247 words of memory out of 3000000
+ 23415 strings out of 493334
+ 565326 string characters out of 3136635
+ 709191 words of memory out of 3000000
  26615 multiletter control sequences out of 15000+200000
- 17392 words of font info for 67 fonts, out of 3000000 for 9000
+ 17700 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,69p,1217b,919s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,69p,413b,919s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on "TP FE.dvi" (7 pages, 39564 bytes).
+Output written on "TP FE.dvi" (7 pages, 39544 bytes).

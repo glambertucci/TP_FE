@@ -61,7 +61,7 @@ Utilizando multimetros se observó el comportamiento de estos para ciertas tensi
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{{CurvaDiodoRectificador.png}}
+	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{CurvaDiodoRectificador.png}
 	\caption{Corriente en función de la tensión del diodo rectificador 1N4148.}
 	\label{fig:diodorect}
 \end{figure}
@@ -139,9 +139,9 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 	(0,0)	to (4,0)
 	(0,1.5)	to [sV,v_=$AC$]	(0,0)
 	(0,2.5)	to [V,v_=$DC$]	(0,1.5)
-	(0,2.5)	to[R,l=$R_G$,a=$50\omega$] (2,2.5)
+	(0,2.5)	to[R,l=$R_G$,a=$50\Omega$] (2,2.5)
 	(0,2.5)	to[R,l=$R_G$] (2,2.5)
-	(2,2.5)	to[R,l=$R$,a=$0.5M\omega$] 	(4,2.5)
+	(2,2.5)	to[R,l=$R$,a=$0.5M\Omega$] 	(4,2.5)
 	(2,2.5)	to[R,l=$R$] 	(4,2.5)
 	(4,0)	to [Do, l_=D1N4007]	(4,2.5)
 ;\end{circuitikz}
@@ -172,7 +172,7 @@ $C= 1,93 pF$
 (0,0) to[sV, l=$AC$,a=$1V$] (0,1)
 (0,2) to[R,l=$R_G$]  (2,2)
 (2,2) -- (4,2)
-(2,2) to[R,l=$R_D$,a=$0.5M\omega$] (2,0)
+(2,2) to[R,l=$R_D$,a=$0.5M\Omega$] (2,0)
 (4,0)	to [C, l=$C$,a=1.93pF]	(4,2)
 (0,0) -- (4,0);
 \end{circuitikz} 
