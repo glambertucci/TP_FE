@@ -155,6 +155,21 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 	\caption{Respuesta en frecuencia del diodo D1N4007.}
 	\label{fig:rtaf}
 \end{figure}
+Podemos observar que estamos en presencia de un filtro pasabajos con una frecuencia de corte estimada de 165KHz. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1.
+El comportamiento del diodo se asocia con el de un capacitor, el valor equivalente de dicho capacitor será calculado como:
+\begin{center}
+c=\dfrac{1}{2\pi Rf}
+\end{center}
+Por otro lado la resistencia del circuito eqivalente será:
+\begin{center}
+R=\dfrac{R_D}{R_D*R_G*100K\ohm}
+\end{center}
+Los valores obtenidos fueron los siguientes:
+\begin{center}
+R=\tab C= 
+\end{center}
+El circuito equivalente será:
+
 
 \section*{Conclusión}
 
@@ -162,7 +177,7 @@ Los resultados obtenidos al estudiar los tres primeros diodos se corresponden co
 
 Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
 
-Por último, la respuesta en frecuencia del último punto mostró un decaimiento exponencial para las frecuencias altas. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1
+Por último, la respuesta en frecuencia del último punto mostró un decaimiento exponencial para las frecuencias altas. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1. 
 
 
 \end{document}
