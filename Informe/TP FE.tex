@@ -61,70 +61,41 @@ Utilizando multimetros se observó el comportamiento de estos para ciertas tensi
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{CurvaDiodoRectificador.png}
+	\includegraphics[width=0.8\textwidth]{CurvaDiodoRectificador.png}
 	\caption{Corriente en función de la tensión del diodo rectificador 1N4148.}
 	\label{fig:diodorect}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{CurvaZenerEntera.png}
+	\includegraphics[width=0.8\textwidth]{CurvaZenerEntera.png}
 	\caption{Corriente en función de la tensión del diodo zener.}
 	\label{fig:diodozen}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{CurvaDiodosLed.png}
+	\includegraphics[width=0.8\textwidth]{CurvaDiodosLed.png}
 	\caption{Corriente en función de la tensión del diodo LED.}
 	\label{fig:diodoled}
 \end{figure}
 
 
 
-%Luego se simuló el siguiente circuito
-%
-%\begin{figure}[H]
-%\begin{center}
-%\begin{circuitikz}
-%\draw
-%	(0,1.5)	to	[sV,v_=$AC$]	(0,-1)
-%	(0,1.5)	to	[R=$R_G$]	(1.5,1.5)
-%	(1.5,1.5)	to	[C, l=$C_{in}$]	(3,1.5)
-%	(0,-1)	to	(4.5,-1)
-%	(3,-1)	to	[R, l=$R_2$]	(3,1.5)
-%	(3,1.5)	to	[R, l_=$R_1$]	(3,4)
-%	(3,4)	to	[V,v=$VCC$]	(1,4)	node[sground]{}	
-%	(3,4)	to	(4.5,4)
-%	(3,1.5)	to	(4,1.5)
-%	
-%	(4.5,1.5) node[npn,name=npn]{}
-%%	(3,1.5)	to	(4.5,1.5) node[npn,name=npn]{}
-%
-%	(4.5,4)	to	[R, l=$R_C$]	(4.5,2)
-%%	(4.5,4)	to	[R, l=$R_C$]	(npn)
-%
-%	(4.5,0.75)	to	[R, l_=$R_E$]	(4.5,-1)	
-%
-%	(4.5,-1)	to	(7,-1) node[sground]{}	
-%	(4.5,0.75)	to	(6,0.75)
-%	(6,0.75) to [C, l_=$C_{E}$]	(6,-1)
-%	
-%	(7,-1)	to	[R, l_=$R_L$]	(7,2)
-%	(7,2)	to	[C, l_=$C_{out}$]	(4.5,2)
-%	
-%;\end{circuitikz}
-%\caption{Circuito analizado en la segunda instancia.}
-%\end{center}
-%\label{circ:2}
-%\end{figure}
 
 Luego se simuló el circuito brindado por la cátedra.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{commonEmitter.jpg}	
+	\caption{Circuito provisto por la catedra.}
+	\label{fig:cmnemitnpn}
+
+\end{figure}
 Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $44,36 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth,natwidth=610,natheight=642]{RtaF2.png}	
+	\includegraphics[width=0.8\textwidth]{RtaF2.png}	
 	\caption{Diagrama de BODE para el cirucito dado.}
 	\label{fig:bode}
 \end{figure}
@@ -152,7 +123,7 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth,natwidth=10,natheight=10]{RtaF3.png}	
+	\includegraphics[width=0.8\textwidth]{RtaF3.png}	
 	\caption{Respuesta en frecuencia del diodo D1N4007.}
 	\label{fig:rtaf}
 \end{figure}
@@ -184,10 +155,8 @@ El fabricante en su hoja de datos declara una capacitancia de juntura típica de
 
 \section*{Conclusión}
 
-Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
-\vfill
-Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
-\vfill
+Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.\newline
+Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.\newline
 Por último, la respuesta en frecuencia del último punto mostró que un diodo conectado de esa forma se puede asociar a un capacitor. Esto se sustenta en que la capacitancia declarada por el fabricante es similar a la obtenida mediante un proceso de simulación.
 
 
