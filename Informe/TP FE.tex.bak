@@ -86,7 +86,7 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 
 \subsection*{Simulación de Circuito con Transistor}
 
-Luego se simuló el circuito brindado por la cátedra.
+Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice}:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3 \textwidth]{commonEmitter.jpg}	
