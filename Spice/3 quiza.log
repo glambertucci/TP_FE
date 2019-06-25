@@ -1,10 +1,19 @@
-Circuit: * C:\Users\germa\Documents\GitHub\TP_FE\Spice\3 quiza.asc
+Circuit: * C:\Users\Guido\Documents\GitHub\TP_FE\Spice\3 quiza.asc
 
-Number of points per decade reduced from 1000000 to 6954.
 Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:      d1
+Model:   1n4148
+Id:     -2.52e-09
+Vd:     -5.00e+00
+Req:     1.00e+12
+CAP:     1.95e-12
 
-Date: Sun Jun 23 18:30:11 2019
-Total elapsed time: 0.229 seconds.
+
+
+Date: Tue Jun 25 16:22:48 2019
+Total elapsed time: 0.158 seconds.
 
 tnom = 27
 temp = 27
@@ -17,5 +26,5 @@ rejected = 0
 matrix size = 7
 fillins = 0
 solver = Normal
-Matrix Compiler1:      12 opcodes
+Matrix Compiler1: 196 bytes object code size
 Matrix Compiler2: 433 bytes object code size
