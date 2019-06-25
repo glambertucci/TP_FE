@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{xcolor}
 
 \usepackage{float}
 \usepackage{graphicx}
@@ -59,9 +60,9 @@ Se realizó la medición de las curvas características de tres diodos distintos
 \label{circ:1}
 \end{figure}
 
-Utilizando multímetros se observó el comportamiento de cada diodo a ciertas tensiones para posteriormente graficar las curvas características correspondiente a cada uno.
+Utilizando multímetros para el diodo rectificador y el diodo zener, y el osciloscopio para el LED, se observaron los comportamientos de cada diodo a ciertas tensiones para posteriormente graficar las curvas características correspondiente a cada uno.
 
-Se realizó una superposición de las curvas de valores medidos en el laboratorio con las curvas teóricas realizadas con datos los datos proporcionados por el fabricante de cada dispositivo. Al costado de cada gráfico se muestra la curva obtenida mediante la simulación del circuito con el uso de \texttt{ltspice}. 
+Se realizó una superposición de las curvas de valores medidos en el laboratorio con las curvas teóricas realizadas con datos los datos proporcionados por el fabricante de cada dispositivo. Al costado de cada gráfico se muestra la curva obtenida mediante la simulación del circuito con el uso de \texttt{ltspice}.
 
 \begin{figure}[H]
 	\centering
@@ -84,6 +85,8 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 	\label{fig:diodoled}
 \end{figure}
 
+\textcolor{red}{HACER ANALISIS}
+
 \subsection*{Simulación de Circuito con Transistor}
 
 Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice}:
@@ -103,6 +106,9 @@ Analizando la función transferencia de tensión de este, se observa que la tran
 	\caption{Diagrama de BODE para el cirucito dado.}
 	\label{fig:bode}
 \end{figure}
+
+\textcolor{red}{NO SE LEEN EJES}
+\textcolor{red}{FALTA FASE}
 
 Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
@@ -131,6 +137,10 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 	\caption{Respuesta en frecuencia del diodo D1N4007.}
 	\label{fig:rtaf}
 \end{figure}
+
+\textcolor{red}{EXPLICITAR FN TRANSFERENCIA}
+\textcolor{red}{CERO EN 1 HZ?}
+
 Como se puede observar en el gráfico, se trata de un filtro pasabajos con una frecuencia de corte estimada de 165KHz. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1.
 El comportamiento del diodo se asocia con el de un capacitor, el valor equivalente de dicho capacitor será calculado como:
 \begin{center}
@@ -140,6 +150,8 @@ Los valores obtenidos fueron los siguientes:
 \begin{center}
 $C= 1,93 pF$
 \end{center}
+
+\textcolor{red}{VALOR DEL RD??? QUE SEA LA MISMA QUE LA FIG 7 ESTA MAL. LA CAPACITANCIA DE FABRICANTE ES DE 15pF Y LA QUE PUSIMOS ES DE 2??}
 
 \begin{figure}[H]
 \begin{center}\begin{circuitikz}[scale=1.6]\draw
@@ -159,10 +171,16 @@ El fabricante en su hoja de datos declara una capacitancia de juntura típica de
 
 \section*{Conclusión}
 
+\textcolor{red}{COMPARAR CON MODELO TEORICO!!}
+\textcolor{red}{NO REPETIR MEDICIONES ES INADMISIBLE}
+\textcolor{red}{NO EXPLICADO COMO SACAMOS LA GANANCIA}
+\textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}
+\textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}
+
 Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
-\vfill
+
 Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
-\vfill
+
 Por último, la respuesta en frecuencia del último punto mostró que un diodo conectado de esa forma se puede asociar a un capacitor. Esto se sustenta en que la capacitancia declarada por el fabricante es similar a la obtenida mediante un proceso de simulación.
 
 
