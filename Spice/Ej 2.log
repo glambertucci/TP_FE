@@ -1,9 +1,9 @@
-Circuit: * C:\Users\Usuario\source\repos\TP_FE\Spice\Ej 2.asc
+Circuit: * C:\Users\Guido\Documents\GitHub\TP_FE\Spice\Ej 2.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Wed May 22 22:34:20 2019
-Total elapsed time: 0.060 seconds.
+Date: Tue Jun 25 12:43:38 2019
+Total elapsed time: 0.561 seconds.
 
 tnom = 27
 temp = 27
