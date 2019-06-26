@@ -92,7 +92,7 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice}:
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3 \textwidth]{commonEmitter.jpg}	
+	\includegraphics[width=0.5 \textwidth]{commonEmitter.jpg}	
 	\caption{Circuito provisto por la catedra.}
 	\label{fig:cmnemitnpn}
 
@@ -107,11 +107,13 @@ Analizando la función transferencia de tensión de este, se observa que la tran
 	\label{fig:bode}
 \end{figure}
 
-Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
+\subsection*{Simulación del Circuito con Diodo}
+
+Se quizo analizar la respuesta en frecuencia del circuito en la figura (\ref{circ:3}) con \texttt{ltspice}, obteniendo el diagrama de Bode en la figura (\ref{fig:rtaf}).
 
 \begin{figure}[H]
 \begin{center}
-\begin{circuitikz}
+\begin{circuitikz}[scale=1.6]
 \draw
 
 	(0,0)	to (4,0)
@@ -124,7 +126,7 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 	(4,0)	to [Do, l_=D1N4007]	(4,2.5)
 ;\end{circuitikz}
 \end{center}
-\caption{Circuito utilizado para medir los diodos.}
+\caption{Respuesta en frecuencia del 1N4007.}
 \label{circ:3}
 \end{figure}
 
@@ -135,23 +137,16 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 	\label{fig:rtaf}
 \end{figure}
 
-\textcolor{red}{EXPLICITAR FN TRANSFERENCIA}
-\textcolor{red}{CERO EN 1 HZ?}
+Se puede observar como el comportamiento de la respuesta en frecuencia es similar a la de un filtro pasabajos de primer orden. Esto indica que el diodo puede ser asociado a un elemento capacitivo.
 
-Como se puede observar en el gráfico, se trata de un filtro pasabajos con una frecuencia de corte estimada de 165KHz. Se podría decir que presenta aproximadamente un cero en $1 \ Hz$ y un polo en $8 \ KHz$, ambos de orden 1.
-El comportamiento del diodo se asocia con el de un capacitor, el valor equivalente de dicho capacitor será calculado como:
-\begin{center}
-$c=\dfrac{1}{2\pi Rf}$
-\end{center}
-Los valores obtenidos fueron los siguientes:
-\begin{center}
-$C= 1,93 pF$
-\end{center}
+Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo $f_c \approx 800KHz$.
 
-\textcolor{red}{VALOR DEL RD??? QUE SEA LA MISMA QUE LA FIG 7 ESTA MAL. LA CAPACITANCIA DE FABRICANTE ES DE 15pF Y LA QUE PUSIMOS ES DE 2??}
+Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1T\Omega$. La capacitancia del circuito equivalente puede ser calculada como $c=\frac{1}{2\pi R f_c}$, obteniendo un valor de $1,989pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4pF$.
+
+Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente.
 
 \begin{figure}[H]
-\begin{center}\begin{circuitikz}[scale=1.6]\draw
+\begin{center}\begin{circuitikz}[scale=1.8]\draw
 (0,1) to[V, l=$DC$,a=$5V$] (0,2)
 (0,0) to[sV, l=$AC$,a=$1V$] (0,1)
 (0,2) to[R,l=$R_G$]  (2,2)
@@ -160,11 +155,10 @@ $C= 1,93 pF$
 (4,0)	to [C, l=$C$,a=1.93pF]	(4,2)
 (0,0) -- (4,0);
 \end{circuitikz} 
-\caption{Circuito equivalente del diodo}
 \end{center}
+\caption{Circuito equivalente del diodo.}
+\label{circ:4}
 \end{figure}
-
-El fabricante en su hoja de datos declara una capacitancia de juntura típica de $4 pF$.
 
 \section*{Conclusión}
 
