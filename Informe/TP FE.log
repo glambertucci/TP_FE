@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.5)  26 JUN 2019 19:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  26 JUN 2019 20:07
 entering extended mode
 **"./TP FE.tex"
 ("TP FE.tex"
 LaTeX2e <2018-12-01>
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -19,36 +19,35 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
-y"
+)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-)
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/04/03 3.29 The Babel package
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+) ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
 "
-File: switch.def 2019/04/03 3.29 Babel switching mechanism
+Package: babel 2018/11/13 3.27 The Babel package
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\span
-ish.ldf"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\spani
+sh.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/04/03 3.29 Babel common definitions
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
-ef")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
+f")
 \bbl@dirlevel=\count89
 )
 \es@quottoks=\toks16
@@ -58,26 +57,26 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
-sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
+ty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
-y"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
-ty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
+y"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.
-sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.s
+ty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
-sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.s
+ty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count91
@@ -93,32 +92,28 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen111
 \Gm@dimlist=\toks18
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
-cfg"))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
-y"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
+fg"))
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
+"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
-y"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+"
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+ ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
 "
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen112
 ))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
-"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen113
-)
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
+) ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
+y"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count94
@@ -159,29 +154,29 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
-sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.s
+ty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
-ty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.st
+y"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
-.cfg"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
+cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
-x.def"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -194,436 +189,472 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty
+"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.st
+y"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen121
+\captionmargin@=\dimen122
+\captionwidth=\dimen123
+\caption@tempdima=\dimen124
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
+)
+\c@caption@flags=\count106
+\c@ContinuedFloat=\count107
+)
+\c@KVtest=\count108
+\sf@farskip=\skip46
+\sf@captopadj=\dimen128
+\sf@capskip=\skip47
+\sf@nearskip=\skip48
+\c@subfigure=\count109
+\c@subfigure@save=\count110
+\c@lofdepth=\count111
+\c@subtable=\count112
+\c@subtable@save=\count113
+\c@lotdepth=\count114
+\sf@top=\skip49
+\sf@bottom=\skip50
+)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count106
+\c@float@type=\count115
 \float@exts=\toks24
 \float@box=\box29
 \@float@everytoks=\toks25
 \@floatcapt=\box30
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
-sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
-sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
-ics.cfg"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-\Gin@req@height=\dimen121
-\Gin@req@width=\dimen122
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/circuitikz\circuit
-ikz.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/circuitikz\circuiti
+kz.sty"
 Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
  0.8.3
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
-tikz.sty"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
-.sty"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
-cs.sty"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-common.tex"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\t
+ikz.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.
+sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrc
+s.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-common.tex"
 \pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen123
-\pgfutil@tempdimb=\dimen124
+\pgfutil@tempdima=\dimen131
+\pgfutil@tempdimb=\dimen132
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-common-lists.tex"))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-latex.def"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-common-lists.tex"))
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-latex.def"
 \pgfutil@abb=\box31
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-frcs.code.tex"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
-.tex")
-Package: pgfrcs 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+rcs.code.tex"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.
+tex")
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
 ))
-Package: pgf 2019/04/04 v3.1.2 (3.1.2)
+Package: pgf 2019/02/02 v3.1.1 (3.1.1)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
-core.sty"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
-fsys.sty"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys.code.tex"
-Package: pgfsys 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfc
+ore.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgf
+sys.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys.code.tex"
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeys.code.tex"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keys.code.tex"
 \pgfkeys@pathtoks=\toks27
 \pgfkeys@temptoks=\toks28
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeysfiltered.code.tex"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen125
-\pgf@y=\dimen126
-\pgf@xa=\dimen127
-\pgf@ya=\dimen128
-\pgf@xb=\dimen129
-\pgf@yb=\dimen130
-\pgf@xc=\dimen131
-\pgf@yc=\dimen132
+\pgf@x=\dimen133
+\pgf@y=\dimen134
+\pgf@xa=\dimen135
+\pgf@ya=\dimen136
+\pgf@xb=\dimen137
+\pgf@yb=\dimen138
+\pgf@xc=\dimen139
+\pgf@yc=\dimen140
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count107
-\c@pgf@countb=\count108
-\c@pgf@countc=\count109
-\c@pgf@countd=\count110
+\c@pgf@counta=\count116
+\c@pgf@countb=\count117
+\c@pgf@countc=\count118
+\c@pgf@countd=\count119
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count111
+\pgf@sys@id@count=\count120
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgf.cfg"
-File: pgf.cfg 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gf.cfg"
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys-common-pdf.def"
-File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
 )))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsyssoftpath.code.tex"
-File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfsyssoftpath@smallbuffer@items=\count112
-\pgfsyssoftpath@bigbuffer@items=\count113
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfsyssoftpath@smallbuffer@items=\count121
+\pgfsyssoftpath@bigbuffer@items=\count122
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsysprotocol.code.tex"
-File: pgfsysprotocol.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcore.code.tex"
-Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcore.code.tex"
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-calc.code.tex"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-util.code.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-parser.code.tex"
-\pgfmath@dimen=\dimen133
-\pgfmath@count=\count114
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathc
+alc.code.tex"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathu
+til.code.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathp
+arser.code.tex"
+\pgfmath@dimen=\dimen141
+\pgfmath@count=\count123
 \pgfmath@box=\box32
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.code.tex"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.basic.code.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.trigonometric.code.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.random.code.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.comparison.code.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.base.code.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.round.code.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.misc.code.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.integerarithmetics.code.tex")))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-float.code.tex"
-\c@pgfmathroundto@lastzeros=\count115
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.code.tex"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.basic.code.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.trigonometric.code.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.random.code.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.comparison.code.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.base.code.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.round.code.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.misc.code.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.integerarithmetics.code.tex")))
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+loat.code.tex"
+\c@pgfmathroundto@lastzeros=\count124
 ))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepoints.code.tex"
-File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@picminx=\dimen134
-\pgf@picmaxx=\dimen135
-\pgf@picminy=\dimen136
-\pgf@picmaxy=\dimen137
-\pgf@pathminx=\dimen138
-\pgf@pathmaxx=\dimen139
-\pgf@pathminy=\dimen140
-\pgf@pathmaxy=\dimen141
-\pgf@xx=\dimen142
-\pgf@xy=\dimen143
-\pgf@yx=\dimen144
-\pgf@yy=\dimen145
-\pgf@zx=\dimen146
-\pgf@zy=\dimen147
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@picminx=\dimen142
+\pgf@picmaxx=\dimen143
+\pgf@picminy=\dimen144
+\pgf@picmaxy=\dimen145
+\pgf@pathminx=\dimen146
+\pgf@pathmaxx=\dimen147
+\pgf@pathminy=\dimen148
+\pgf@pathmaxy=\dimen149
+\pgf@xx=\dimen150
+\pgf@xy=\dimen151
+\pgf@yx=\dimen152
+\pgf@yy=\dimen153
+\pgf@zx=\dimen154
+\pgf@zy=\dimen155
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathconstruct.code.tex"
-File: pgfcorepathconstruct.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@path@lastx=\dimen148
-\pgf@path@lasty=\dimen149
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@path@lastx=\dimen156
+\pgf@path@lasty=\dimen157
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathusage.code.tex"
-File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@shorten@end@additional=\dimen150
-\pgf@shorten@start@additional=\dimen151
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@shorten@end@additional=\dimen158
+\pgf@shorten@start@additional=\dimen159
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorescopes.code.tex"
-File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box33
 \pgf@hbox=\box34
 \pgf@layerbox@main=\box35
-\pgf@picture@serial@count=\count116
+\pgf@picture@serial@count=\count125
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoregraphicstate.code.tex"
-File: pgfcoregraphicstate.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgflinewidth=\dimen152
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgflinewidth=\dimen160
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoretransformations.code.tex"
-File: pgfcoretransformations.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@pt@x=\dimen153
-\pgf@pt@y=\dimen154
-\pgf@pt@temp=\dimen155
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@pt@x=\dimen161
+\pgf@pt@y=\dimen162
+\pgf@pt@temp=\dimen163
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorequick.code.tex"
-File: pgfcorequick.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorequick.code.tex"
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreobjects.code.tex"
-File: pgfcoreobjects.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathprocessing.code.tex"
-File: pgfcorepathprocessing.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorearrows.code.tex"
-File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfarrowsep=\dimen156
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfarrowsep=\dimen164
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreshade.code.tex"
-File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@max=\dimen157
-\pgf@sys@shading@range@num=\count117
-\pgf@shadingcount=\count118
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@max=\dimen165
+\pgf@sys@shading@range@num=\count126
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreimage.code.tex"
-File: pgfcoreimage.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreexternal.code.tex"
-File: pgfcoreexternal.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfexternal@startupbox=\box36
 ))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorelayers.code.tex"
-File: pgfcorelayers.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoretransparency.code.tex"
-File: pgfcoretransparency.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepatterns.code.tex"
-File: pgfcorepatterns.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorerdf.code.tex"
-File: pgfcorerdf.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-oduleshapes.code.tex"
-File: pgfmoduleshapes.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+duleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfnodeparttextbox=\box37
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-oduleplot.code.tex"
-File: pgfmoduleplot.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+duleplot.code.tex"
+File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
-pgfcomp-version-0-65.sty"
-Package: pgfcomp-version-0-65 2019/04/04 v3.1.2 (3.1.2)
-\pgf@nodesepstart=\dimen158
-\pgf@nodesepend=\dimen159
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
+gfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
+\pgf@nodesepstart=\dimen166
+\pgf@nodesepend=\dimen167
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
-pgfcomp-version-1-18.sty"
-Package: pgfcomp-version-1-18 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
+gfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
 ))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
-or.sty"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
-eys.sty"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeys.code.tex"))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
-ty"
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex"))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-ffor.code.tex"
-Package: pgffor 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffo
+r.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfke
+ys.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keys.code.tex"))
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.st
+y"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex"))
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+for.code.tex"
+Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex")
-\pgffor@iter=\dimen160
-\pgffor@skip=\dimen161
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex")
+\pgffor@iter=\dimen168
+\pgffor@skip=\dimen169
 \pgffor@stack=\toks36
 \pgffor@toks=\toks37
 ))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz\tikz.code.tex"
-Package: tikz 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz\tikz.code.tex"
+Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
-flibraryplothandlers.code.tex"
-File: pgflibraryplothandlers.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@plot@mark@count=\count119
-\pgfplotmarksize=\dimen162
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
+libraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@plot@mark@count=\count127
+\pgfplotmarksize=\dimen170
 )
-\tikz@lastx=\dimen163
-\tikz@lasty=\dimen164
-\tikz@lastxsaved=\dimen165
-\tikz@lastysaved=\dimen166
-\tikzleveldistance=\dimen167
-\tikzsiblingdistance=\dimen168
+\tikz@lastx=\dimen171
+\tikz@lasty=\dimen172
+\tikz@lastxsaved=\dimen173
+\tikz@lastysaved=\dimen174
+\tikzleveldistance=\dimen175
+\tikzsiblingdistance=\dimen176
 \tikz@figbox=\box38
 \tikz@figbox@bg=\box39
 \tikz@tempbox=\box40
 \tikz@tempbox@bg=\box41
-\tikztreelevel=\count120
-\tikznumberofchildren=\count121
-\tikznumberofcurrentchild=\count122
-\tikz@fig@count=\count123
+\tikztreelevel=\count128
+\tikznumberofchildren=\count129
+\tikznumberofcurrentchild=\count130
+\tikz@fig@count=\count131
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-odulematrix.code.tex"
-File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfmatrixcurrentrow=\count124
-\pgfmatrixcurrentcolumn=\count125
-\pgf@matrix@numberofcolumns=\count126
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+dulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfmatrixcurrentrow=\count132
+\pgfmatrixcurrentcolumn=\count133
+\pgf@matrix@numberofcolumns=\count134
 )
-\tikz@expandcount=\count127
+\tikz@expandcount=\count135
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibrarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibrarycalc.code.tex"
-File: tikzlibrarycalc.code.tex 2019/04/04 v3.1.2 (3.1.2)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
-flibraryarrows.code.tex"
-File: pgflibraryarrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\arrowsize=\dimen169
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
+libraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\arrowsize=\dimen177
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rc.defines.tex"
-\pgf@circ@res@up=\dimen170
-\pgf@circ@res@down=\dimen171
-\pgf@circ@res@zero=\dimen172
-\pgf@circ@res@left=\dimen173
-\pgf@circ@res@right=\dimen174
-\pgf@circ@res@other=\dimen175
-\pgf@circ@res@step=\dimen176
-\pgf@circ@res@temp=\dimen177
-\pgfstartlinewidth=\dimen178
-\pgf@circ@Rlen=\dimen179
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+c.defines.tex"
+\pgf@circ@res@up=\dimen178
+\pgf@circ@res@down=\dimen179
+\pgf@circ@res@zero=\dimen180
+\pgf@circ@res@left=\dimen181
+\pgf@circ@res@right=\dimen182
+\pgf@circ@res@other=\dimen183
+\pgf@circ@res@step=\dimen184
+\pgf@circ@res@temp=\dimen185
+\pgfstartlinewidth=\dimen186
+\pgf@circ@Rlen=\dimen187
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcutils.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcshapes.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcmonopoles.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcbipoles.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rctripoles.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcquadpoles.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rclabel.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcvoltage.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rccurrent.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcflow.tex")
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcpath.tex"))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
-sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+cutils.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+cshapes.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+cmonopoles.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+cbipoles.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+ctripoles.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+cquadpoles.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+clabel.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+cvoltage.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+ccurrent.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+cflow.tex")
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfcir
+cpath.tex"))
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.s
+ty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip46
-\f@nch@O@elh=\skip47
-\f@nch@O@erh=\skip48
-\f@nch@O@olh=\skip49
-\f@nch@O@orh=\skip50
-\f@nch@O@elf=\skip51
-\f@nch@O@erf=\skip52
-\f@nch@O@olf=\skip53
-\f@nch@O@orf=\skip54
-)
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\units.sty"
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\units.sty"
 Package: units 1998/08/04 v0.9b Typesetting units
-
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+ ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\nicefrac.sty
-"
+) ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\nicefrac.st
+y"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip55
-\L@UnitsRaiseTextstyle=\skip56
-\L@UnitsRaiseScriptstyle=\skip57
+\L@UnitsRaiseDisplaystyle=\skip60
+\L@UnitsRaiseTextstyle=\skip61
+\L@UnitsRaiseScriptstyle=\skip62
 )) ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
+
+
+LaTeX Warning: Label `fig:diodoled' multiply defined.
+
 )
 \openout1 = `"TP FE.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -660,60 +691,60 @@ LaTeX Info: Redefining \% on input line 27.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
-df.mkii"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
-\scratchdimen=\dimen180
+\scratchcounter=\count136
+\scratchdimen=\dimen188
 \scratchbox=\box42
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\nofMPsegments=\count137
+\nofMParguments=\count138
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count131
-\MPscratchDim=\dimen181
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen189
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks39
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
-base.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-b
+ase.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
-rr.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarer
+r.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
-y"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty
+"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
-ekeys.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefine
+keys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
-.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.
+sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
-.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.
+sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
-ys.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkey
+s.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
-s.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds
+.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
-x.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex
+.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
-mds.sty"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcm
+ds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -727,91 +758,103 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) ABD: EveryShipout initializing macros (Caratula.tex
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ ABD: EveryShipout initializing macros (Caratula.tex
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 4.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 8.
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 8.
-("C:\Users\ellon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
 
-{C:/Users/ellon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
+
+{C:/Users/Acer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
 <./Imagenes/CurvaDiodoRectificador.png, id=13, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaDiodoRectificador.png Graphic file (type png)
 <use ./Imagenes/CurvaDiodoRectificador.png>
 Package pdftex.def Info: ./Imagenes/CurvaDiodoRectificador.png  used on input l
-ine 69.
-(pdftex.def)             Requested size: 347.4297pt x 260.58421pt.
+ine 71.
+(pdftex.def)             Requested size: 223.34712pt x 167.51389pt.
 <./Imagenes/IV1N4007.PNG, id=15, 373.395pt x 323.70938pt>
 File: ./Imagenes/IV1N4007.PNG Graphic file (type png)
 <use ./Imagenes/IV1N4007.PNG>
-Package pdftex.def Info: ./Imagenes/IV1N4007.PNG  used on input line 76.
-(pdftex.def)             Requested size: 347.4297pt x 301.20961pt.
-
-[1 <./Imagenes/CurvaDiodoRectificador.png>]
-<./Imagenes/CurvaZenerEntera.png, id=23, 462.528pt x 346.896pt>
+Package pdftex.def Info: ./Imagenes/IV1N4007.PNG  used on input line 73.
+(pdftex.def)             Requested size: 223.34712pt x 193.62451pt.
+<./Imagenes/CurvaZenerEntera.png, id=16, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaZenerEntera.png Graphic file (type png)
 <use ./Imagenes/CurvaZenerEntera.png>
-Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 83
+Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 80
 .
-(pdftex.def)             Requested size: 347.4297pt x 260.58421pt.
-<./Imagenes/IVZener.PNG, id=24, 428.35031pt x 411.03563pt>
+(pdftex.def)             Requested size: 260.57039pt x 195.43552pt.
+<./Imagenes/IVZener.PNG, id=17, 428.35031pt x 411.03563pt>
 File: ./Imagenes/IVZener.PNG Graphic file (type png)
 <use ./Imagenes/IVZener.PNG>
-Package pdftex.def Info: ./Imagenes/IVZener.PNG  used on input line 91.
-(pdftex.def)             Requested size: 347.4297pt x 333.38861pt.
- [2 <./Imagenes/IV1N4007.PNG> <./Imagenes/CurvaZenerEntera.png>]
-<./Imagenes/CurvaDiodosLed.png, id=30, 462.528pt x 346.896pt>
+Package pdftex.def Info: ./Imagenes/IVZener.PNG  used on input line 82.
+(pdftex.def)             Requested size: 186.12387pt x 178.59834pt.
+ [1 <./Imagenes/CurvaDiodoRectificador.png> <./Imagenes/IV1N4007.PNG>]
+<./Imagenes/CurvaDiodosLed.png, id=27, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaDiodosLed.png Graphic file (type png)
 <use ./Imagenes/CurvaDiodosLed.png>
-Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 99.
-(pdftex.def)             Requested size: 347.4297pt x 260.58421pt.
-File: ./Imagenes/CurvaDiodosLed.png Graphic file (type png)
-<use ./Imagenes/CurvaDiodosLed.png>
-Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 106.
+Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 91.
+(pdftex.def)             Requested size: 260.57039pt x 195.43552pt.
+<./Imagenes/IV-ledFab.PNG, id=28, 339.51843pt x 306.39468pt>
+File: ./Imagenes/IV-ledFab.PNG Graphic file (type png)
+<use ./Imagenes/IV-ledFab.PNG>
+Package pdftex.def Info: ./Imagenes/IV-ledFab.PNG  used on input line 93.
+(pdftex.def)             Requested size: 186.12387pt x 167.96591pt.
+ [2 <./Imagenes/CurvaZenerEntera.png> <./Imagenes/IVZener.PNG> <./Imagenes/Curv
+aDiodosLed.png> <./Imagenes/IV-ledFab.PNG>]
 
-(pdftex.def)             Requested size: 347.4297pt x 260.58421pt.
- [3 <./Imagenes/IVZener.PNG> <./Imagenes/CurvaDiodosLed.png>]
+LaTeX Warning: Reference `fig:diodozen' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `fig:diodorect' on page 3 undefined on input line 102.
+
+
 <./Imagenes/commonEmitter.jpg, id=37, 584.93532pt x 312.41719pt>
 File: ./Imagenes/commonEmitter.jpg Graphic file (type jpg)
 <use ./Imagenes/commonEmitter.jpg>
-Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 122.
+Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 109.
 (pdftex.def)             Requested size: 297.80121pt x 159.06369pt.
 <./Imagenes/CircEq.PNG, id=38, 973.38657pt x 211.54031pt>
 File: ./Imagenes/CircEq.PNG Graphic file (type png)
 <use ./Imagenes/CircEq.PNG>
-Package pdftex.def Info: ./Imagenes/CircEq.PNG  used on input line 131.
+Package pdftex.def Info: ./Imagenes/CircEq.PNG  used on input line 118.
 (pdftex.def)             Requested size: 496.33032pt x 107.86475pt.
- [4 <./Imagenes/commonEmitter.jpg>]
-<./Imagenes/RtaF2.png, id=42, 462.528pt x 346.896pt>
+<./Imagenes/RtaF2.png, id=39, 462.528pt x 346.896pt>
 File: ./Imagenes/RtaF2.png Graphic file (type png)
 <use ./Imagenes/RtaF2.png>
-Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 144.
+Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 131.
 (pdftex.def)             Requested size: 446.69426pt x 335.03836pt.
- [5 <./Imagenes/CircEq.PNG> <./Imagenes/RtaF2.png>]
-<./Imagenes/RtaF3.png, id=49, 812.28468pt x 379.4175pt>
+[3 <./Imagenes/commonEmitter.jpg> <./Imagenes/CircEq.PNG>] [4 <./Imagenes/RtaF2
+.png>]
+<./Imagenes/RtaF3.png, id=51, 812.28468pt x 379.4175pt>
 File: ./Imagenes/RtaF3.png Graphic file (type png)
 <use ./Imagenes/RtaF3.png>
-Package pdftex.def Info: ./Imagenes/RtaF3.png  used on input line 201.
+Package pdftex.def Info: ./Imagenes/RtaF3.png  used on input line 188.
 (pdftex.def)             Requested size: 446.69426pt x 208.64552pt.
- [6]
-<./Imagenes/RtaF3RC.png, id=55, 1025.33063pt x 458.46281pt>
+<./Imagenes/RtaF3RC.png, id=52, 1025.33063pt x 458.46281pt>
 File: ./Imagenes/RtaF3RC.png Graphic file (type png)
 <use ./Imagenes/RtaF3RC.png>
-Package pdftex.def Info: ./Imagenes/RtaF3RC.png  used on input line 208.
+Package pdftex.def Info: ./Imagenes/RtaF3RC.png  used on input line 195.
 (pdftex.def)             Requested size: 496.33032pt x 221.92746pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--220
+ [5 <./Imagenes/RtaF3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 202--207
 
  []
 
-[7 <./Imagenes/RtaF3.png> <./Imagenes/RtaF3RC.png>] ("TP FE.aux"
+[6 <./Imagenes/RtaF3RC.png>] ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -819,33 +862,38 @@ LaTeX Info: Redefining \% on input line 6.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22053 strings out of 492945
- 510649 string characters out of 3126253
- 651302 words of memory out of 3000000
- 25590 multiletter control sequences out of 15000+200000
- 17867 words of font info for 69 fonts, out of 3000000 for 9000
+ 23065 strings out of 492945
+ 526280 string characters out of 3126696
+ 654009 words of memory out of 3000000
+ 26590 multiletter control sequences out of 15000+200000
+ 18175 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,55p,941b,921s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmcsc10.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ellon/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ellon/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ell
-on/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr7.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ellon/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "TP FE.pdf" (8 pages, 382297 bytes).
+ 62i,12n,55p,1000b,939s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Acer/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Acer/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Acer/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+ers/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Acer/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Acer/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "TP FE.pdf" (7 pages, 421690 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
