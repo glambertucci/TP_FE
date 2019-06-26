@@ -88,7 +88,7 @@ plt.plot(rectV, rectI,'-bo',label = 'Medido')
 #zenerI = np.asarray([-7,-4.7,-3.8,-2.6,-1.1,-0.651,-0.216,-0.001,-0.001,0,0.001,0.001,0.056,0.168,0.274,0.792,1.636,4.1,5.1]) *1/1000
 #plt.plot(zenerV,zenerI,'-bo',label = 'Medido')
 
-data = read_file_spice("1N4148_char.txt")
+data = read_file_spice("1N4007(ej3)_char.txt")
 tensionDiodo = np.asarray(data["Vd"])
 corrienteDiodo = np.asarray(data["Id"])
 plt.plot(tensionDiodo,corrienteDiodo,'r',label= 'Simulado')
