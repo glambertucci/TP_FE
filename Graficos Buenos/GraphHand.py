@@ -70,29 +70,29 @@ def read_file_spice(filename):
 
     return data
 
+
+
+
 import pandas as pd
-df = pd.read_csv('mlr.csv')
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.interpolate import spline
 
-tensionFuente = np.asarray(df['CH1'])
-tiempo = np.arange(0, len(tensionFuente), 1)
-tensionLed = np.asarray(df['CH2'])
-corrienteRes = (tensionFuente - tensionLed) * 1/470
-tensionLedSmooth = pd.DataFrame(tensionLed)
-corrienteResSmooth = pd.DataFrame(corrienteRes)
+#data = read_csv_bode("mlr.csv")
+#rectificador
+#rectV =np.asarray([0,0.256,0.320,0.4,0.469,0.535,0.552,0.563,0.571,0.577,0.589,0.594,0.603,0.608,0.610,0.614,0.618,0.623,0.626,0.635,0.642,0.646,0.653,0.671,0.685])
+#rectI =np.asarray([0,0.001,0.003,0.017,0.1,0.4,0.6,0.8,1,1.1,1.4,1.5,1.9,2.1,2.1,2.3,2.5,2.8,2.9,3.6,4.1,4.4,5.1,7.5,10.2]) * 1/1000
+#plt.plot(rectV, rectI,'-bo')
+#zener
+zenerV = np.asarray([-11.79,-11.71,-11.68,-11.62,-11.56,-11.53,-11.48,-11.3,-10.22,-9.36,0,0.52,0.64,0.67,0.69,0.72,0.74,0.76,0.77])
+zenerI = np.asarray([-7,-4.7,-3.8,-2.6,-1.1,-0.651,-0.216,-0.001,-0.001,0,0.001,0.001,0.056,0.168,0.274,0.792,1.636,4.1,5.1])
+plt.plot(zenerV,zenerI,'-bo')
 
-{#plt.plot(tensionLedSmooth.ewm(com=20).mean(),corrienteResSmooth.ewm(com=20).mean())
-#plt.plot(tensionLedSmooth,corrienteResSmooth)
-#plt.ylabel("Corriente (A)")
-#plt.xlabel("Tension (V)")
-#plt.grid(which='major', linestyle='-', linewidth=0.3, color='black')
-#plt.grid(which='minor', linestyle=':', linewidth=0.1, color='black')
-#plt.show()
-}
-data = read_file_spice("try.txt")
+data = read_file_spice("1N4148_char.txt")
 tensionDiodo = np.asarray(data["Vd"])
 corrienteDiodo = np.asarray(data["Id"])
-plt.plot(tensionDiodo,corrienteDiodo)
-plt.plot(tensionLedSmooth.ewm(com=20).mean(),corrienteResSmooth.ewm(com=20).mean())
+plt.plot(tensionDiodo,corrienteDiodo,'r')
+#plt.plot(tensionLedSmooth.ewm(com=20).mean(),corrienteResSmooth.ewm(com=20).mean())
 plt.ylabel("Corriente (A)")
 plt.xlabel("Tension (V)")
 plt.grid(which='major', linestyle='-', linewidth=0.3, color='black')
