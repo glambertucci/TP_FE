@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  26 JUN 2019 20:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  26 JUN 2019 20:36
 entering extended mode
 **"./TP FE.tex"
 ("TP FE.tex"
@@ -805,66 +805,48 @@ Package pdftex.def Info: ./Imagenes/IV1N4007.PNG  used on input line 75.
 <./Imagenes/CurvaZenerEntera.png, id=16, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaZenerEntera.png Graphic file (type png)
 <use ./Imagenes/CurvaZenerEntera.png>
-Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 83
+Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 84
 .
 (pdftex.def)             Requested size: 260.57039pt x 195.43552pt.
 <./Imagenes/IVZener.PNG, id=17, 428.35031pt x 411.03563pt>
 File: ./Imagenes/IVZener.PNG Graphic file (type png)
 <use ./Imagenes/IVZener.PNG>
-Package pdftex.def Info: ./Imagenes/IVZener.PNG  used on input line 85.
+Package pdftex.def Info: ./Imagenes/IVZener.PNG  used on input line 86.
 (pdftex.def)             Requested size: 186.12387pt x 178.59834pt.
  [1 <./Imagenes/CurvaDiodoRectificador.png> <./Imagenes/IV1N4007.PNG>]
-
-LaTeX Warning: Reference `fig:diodozen' on page 2 undefined on input line 89.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
-
- []
-
 <./Imagenes/CurvaDiodosLed.png, id=27, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaDiodosLed.png Graphic file (type png)
 <use ./Imagenes/CurvaDiodosLed.png>
-Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 95.
+Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 97.
 (pdftex.def)             Requested size: 260.57039pt x 195.43552pt.
 <./Imagenes/IV-ledFab.PNG, id=28, 339.51843pt x 306.39468pt>
 File: ./Imagenes/IV-ledFab.PNG Graphic file (type png)
 <use ./Imagenes/IV-ledFab.PNG>
-Package pdftex.def Info: ./Imagenes/IV-ledFab.PNG  used on input line 97.
+Package pdftex.def Info: ./Imagenes/IV-ledFab.PNG  used on input line 99.
 (pdftex.def)             Requested size: 186.12387pt x 167.96591pt.
-[2 <./Imagenes/CurvaZenerEntera.png> <./Imagenes/IVZener.PNG> <./Imagenes/Curva
-DiodosLed.png> <./Imagenes/IV-ledFab.PNG>]
-
-LaTeX Warning: Reference `fig:diodozen' on page 3 undefined on input line 109.
-
-
-LaTeX Warning: Reference `fig:diodorect' on page 3 undefined on input line 109.
-
-
-
-LaTeX Warning: Reference `fig:diodoled' on page 3 undefined on input line 109.
-
-<./Imagenes/commonEmitter.jpg, id=39, 584.93532pt x 312.41719pt>
-File: ./Imagenes/commonEmitter.jpg Graphic file (type jpg)
-<use ./Imagenes/commonEmitter.jpg>
-Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 116.
-(pdftex.def)             Requested size: 297.80121pt x 159.06369pt.
-<./Imagenes/CircEq.PNG, id=40, 973.38657pt x 211.54031pt>
+ [2 <./Imagenes/CurvaZenerEntera.png> <./Imagenes/IVZener.PNG> <./Imagenes/Curv
+aDiodosLed.png> <./Imagenes/IV-ledFab.PNG>]
+<./Imagenes/BC547B.PNG, id=38, 636.12656pt x 374.14781pt>
+File: ./Imagenes/BC547B.PNG Graphic file (type png)
+<use ./Imagenes/BC547B.PNG>
+Package pdftex.def Info: ./Imagenes/BC547B.PNG  used on input line 119.
+(pdftex.def)             Requested size: 297.80121pt x 175.15298pt.
+<./Imagenes/CircEq.PNG, id=39, 973.38657pt x 211.54031pt>
 File: ./Imagenes/CircEq.PNG Graphic file (type png)
 <use ./Imagenes/CircEq.PNG>
-Package pdftex.def Info: ./Imagenes/CircEq.PNG  used on input line 125.
+Package pdftex.def Info: ./Imagenes/CircEq.PNG  used on input line 128.
 (pdftex.def)             Requested size: 496.33032pt x 107.86475pt.
-<./Imagenes/RtaF2.png, id=41, 462.528pt x 346.896pt>
+<./Imagenes/RtaF2.png, id=40, 462.528pt x 346.896pt>
 File: ./Imagenes/RtaF2.png Graphic file (type png)
 <use ./Imagenes/RtaF2.png>
-Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 138.
+Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 141.
 (pdftex.def)             Requested size: 446.69426pt x 335.03836pt.
-[3 <./Imagenes/commonEmitter.jpg> <./Imagenes/CircEq.PNG>] [4 <./Imagenes/RtaF2
-.png>]
+ [3 <./Imagenes/BC547B.PNG> <./Imagenes/CircEq.PNG>]
+[4 <./Imagenes/RtaF2.png>]
 <./Imagenes/capVsDiodo.png, id=51, 628.0263pt x 363.5181pt>
 File: ./Imagenes/capVsDiodo.png Graphic file (type png)
 <use ./Imagenes/capVsDiodo.png>
-Package pdftex.def Info: ./Imagenes/capVsDiodo.png  used on input line 195.
+Package pdftex.def Info: ./Imagenes/capVsDiodo.png  used on input line 198.
 (pdftex.def)             Requested size: 446.69426pt x 258.56558pt.
  [5 <./Imagenes/capVsDiodo.png>] ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
@@ -873,36 +855,32 @@ LaTeX Info: Redefining \% on input line 6.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 23108 strings out of 492945
- 526870 string characters out of 3126696
- 654203 words of memory out of 3000000
- 26630 multiletter control sequences out of 15000+200000
- 18175 words of font info for 70 fonts, out of 3000000 for 9000
+ 23104 strings out of 492945
+ 526784 string characters out of 3126696
+ 655218 words of memory out of 3000000
+ 26628 multiletter control sequences out of 15000+200000
+ 17867 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,55p,1000b,939s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,55p,1029b,939s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Acer/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Acer/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Acer/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
-ers/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Acer/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Acer/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "TP FE.pdf" (6 pages, 422311 bytes).
+cm/cmbx12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmcsc10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Acer/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Acer/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Acer/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
+rs/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Acer/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "TP FE.pdf" (6 pages, 390163 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
