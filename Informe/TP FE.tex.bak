@@ -107,9 +107,6 @@ Analizando la función transferencia de tensión de este, se observa que la tran
 	\label{fig:bode}
 \end{figure}
 
-\textcolor{red}{NO SE LEEN EJES}
-\textcolor{red}{FALTA FASE}
-
 Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 \begin{figure}[H]
