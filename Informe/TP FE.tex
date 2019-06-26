@@ -110,9 +110,11 @@ Para este circuito se realizo el análisis de pequeña señal, reduciéndolo al 
 	\label{fig:littleSignal}
 \end{figure}
 A partir de este modelo se pudo calcular la transferencia quedando esta de la siguiente manera \[H(s)=\frac{R_1\parallel R_2\parallel R_\pi}{R_g+R_1\parallel R_2\parallel R_\pi}\cdot \frac{1}{R_\pi} \cdot \beta \cdot r_0 \parallel R_c \parallel R_L  \]
-Obteniendo los valores de $R_\pi = 6,32 \cdot 10^{3} \ \Omega$ a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \] utilizando Ic del spice y calculando $V_T$ $\approx 25 \ mV$ (temperatura ambiente).
-El valor de $R_0$ fue sacado de la simulación. El valor de $\beta$ fue sacado de la datasheet , dado a que el fabricante da un rango de valores, elegimos un valor de 295. 
+
+Se obtuvieron los valores de $R_\pi = 6,32 \cdot 10^{3} \ \Omega$ a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \] utilizando Ic del spice y calculando $V_T$ $\approx 25 \ mV$ (temperatura ambiente).
+El valor de $R_0$ se obtuvo de la simulación, mientras que el de $\beta$, de la datasheet. Como el fabricante da un rango de valores, elegimos un valor de 295. 
 Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $43.82 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
+
 
 \begin{figure}[H]
 	\centering
