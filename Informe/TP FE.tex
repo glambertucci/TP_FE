@@ -78,7 +78,7 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 	\label{fig:diodozen}
 \end{figure}
 
-Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoría con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5V$ en módulo.
+Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoría con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12 \ V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5 \ V$ en módulo.
 
 \begin{figure}[H]
 	\centering
@@ -87,9 +87,11 @@ Se puede observar que tanto para el diodo rectificador como para el diodo zener 
 	\label{fig:diodoled}
 \end{figure}
 
-Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 a 5V). Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales, se decidió utilizar un suavizamiento exponencial para reducir el ruido. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
-Se puede observar que existen leves discrepancias entre la curva de la simulación y la medición de laboratorio. La mayor diferencia se encuentra en la tensión de foward del LED,en  la cual la discrepancia es de $\approx 0,2V$.
+Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 V a 5 V). Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales, se decidió utilizar un suavizamiento exponencial para reducir el ruido. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
+Se puede observar que existen leves discrepancias entre la curva de la simulación y la medición de laboratorio. La mayor diferencia se encuentra en la tensión de foward del LED,en  la cual la discrepancia es de $\approx 0,2 \ V$.
 Como el LED utilizado para simulación no fue exactamente el utilizado en el laboratorio, sino fue elegido a causa de las similares características, se consideran aceptables las diferencias entre ambas curvas.
+
+Luego se puede afirmar que los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados, conclusión a la que se llega al comparar las curvas medidas con las teóricas simuladas en las figuras (\ref{fig:diodozen}), (\ref{fig:diodorect}) y (\ref{fig:diodoled}). Si bien, al observar el último gráfico se observan discrepancias, estas son atribuidas al uso del suavizamiento exponencial, el cual busca reducir la dispersión existente. Si bien esto no fue logrado en su totalidad, se consiguió con gran precisión, lo cual no impide poder afirmar que la curva medida es próxima y se corresponde a la real.
 
 \subsection*{Simulación de Circuito con Transistor}
 
@@ -183,8 +185,6 @@ Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1
 \textcolor{red}{NO EXPLICADO COMO SACAMOS LA GANANCIA}
 \textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}
 \textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}
-
-Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. En un principio se observaron pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que fueron atribuidos a cambios de escala de los instrumentos durante el análisis. Rehaciendo las mediciones se pudo corregir dichos desfaces, confeccionando mejores curvas y más próximas a las teóricas. Es así que se mostró en las figuras (\ref{fig:diodozen}), (\ref{fig:diodorect}) y (\ref{fig:diodoled}). Se recuerda al lector que para esta última se valió del uso de un osciloscopio, es por ello que se debió usar un suavizamiento exponencial, tratando de reducir el ruido existente. Si bien esto fue logrado con alta precisión, no se consiguió en su totalidad, lo cual no impide poder afirmar que la curva medida es próxima y se corresponde a la real- 
 
 Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
 
