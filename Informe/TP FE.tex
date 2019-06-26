@@ -44,7 +44,7 @@ En el trabajo presente se llevó adelante el estudio de distintos tipos de diodo
 
 \subsection*{Medición de Diodos}
 
-Se realizó la medición de las curvas características de tres diodos distintos: Rectificador 1N4148, Diodo Zener 12V y LED rojo de 5mm en ese orden respectivamente. Los diodos fueron conectados de la forma presentada en el circuito (\ref{circ:1}).
+Se realizó la medición de las curvas características de tres diodos distintos: Rectificador 1N4148, Diodo Zener 12 V y LED rojo de 5 mm en ese orden respectivamente. Los diodos fueron conectados de la forma presentada en el circuito (\ref{circ:1}).
 
 \begin{figure}[H]
 \begin{center}
@@ -78,7 +78,7 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 	\label{fig:diodozen}
 \end{figure}
 
-Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoria con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5V$ en módulo.
+Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoría con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5V$ en módulo.
 
 \begin{figure}[H]
 	\centering
@@ -97,22 +97,21 @@ Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6 \textwidth]{commonEmitter.jpg}	
-	\caption{Circuito provisto por la catedra.}
+	\caption{Circuito provisto por la cátedra.}
 	\label{fig:cmnemitnpn}
 
 \end{figure}
 
-Para este circuito se realizo el analisis de pequeña señal, reduciendolo al siguiente circuito
+Para este circuito se realizo el análisis de pequeña señal, reduciéndolo al siguiente circuito
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1 \textwidth]{CircEq.PNG}	
-	\caption{Analisis de pequeña señak.}
+	\caption{Analisis de pequeña señal.}
 	\label{fig:littleSignal}
 \end{figure}
 A partir de este modelo se pudo calcular la transferencia quedando esta de la siguiente manera \[H(s)=\frac{R_1\parallel R_2\parallel R_\pi}{R_g+R_1\parallel R_2\parallel R_\pi}\cdot \frac{1}{R_\pi} \cdot \beta \cdot r_0 \parallel R_c \parallel R_L  \]
-Obteniendo los valores de $R_\pi$ = ??(ver whatsapp) Obtenida a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \]
- obteniendo Ic del spice y calculando $V_T$ $\approx$ 25mV
-El valor de $R_0$ fue sacado de la simulación. El valor de $\beta$ fue sacado de la datasheet , dado a que el fabricante da un rango de valores, elegimos un valor de 295 (CREO FIJATE LO QUE DIGA EL WHATSAPP (QUE MANDE DEL SPICE))  
+Obteniendo los valores de $R_\pi = 6,32 \cdot 10^{3} \ \Omega$ a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \] utilizando Ic del spice y calculando $V_T$ $\approx 25 \ mV$ (temperatura ambiente).
+El valor de $R_0$ fue sacado de la simulación. El valor de $\beta$ fue sacado de la datasheet , dado a que el fabricante da un rango de valores, elegimos un valor de 295. 
 Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $44,36 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
 
 \begin{figure}[H]
@@ -153,9 +152,9 @@ Se quizo analizar la respuesta en frecuencia del circuito en la figura (\ref{cir
 \end{figure}
 
 Se puede observar como el comportamiento de la respuesta en frecuencia es similar a la de un filtro pasabajos de primer orden compuesto por un polo en $f=f_c$. Esto indica que el diodo puede ser asociado a un elemento capacitivo.
-Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|=-3dB} \approx 800KHz\]
+Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|= -3 \ dB} \approx 800 \ KHz\]
 
-Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1T\Omega$. La capacitancia del circuito equivalente puede ser calculada como \[c=\frac{1}{2\pi R f_c}\] obteniendo un valor de $1,989pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4pF$.
+Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1T\Omega$. La capacitancia del circuito equivalente puede ser calculada como \[c=\frac{1}{2\pi R f_c}\] obteniendo un valor de $1,989 \ pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95 \ pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4 \ pF$.
 
 Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1N4007.
 
@@ -183,7 +182,7 @@ Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1
 \textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}
 \textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}
 
-Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
+Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. En un principio se observaron pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que fueron atribuidos a cambios de escala de los instrumentos durante el análisis. Rehaciendo las mediciones se pudo corregir dichos desfaces, confeccionando mejores curvas y más próximas a las teóricas. Es así que se mostró en las figuras (\ref{fig:diodozen}), (\ref{fig:diodorect}) y (\ref{fig:diodoled}). Se recuerda al lector que para esta última se valió del uso de un osciloscopio, es por ello que se debió usar un suavizamiento exponencial, tratando de reducir el ruido existente. Si bien esto fue logrado con alta precisión, no se consiguió en su totalidad, lo cual no impide poder afirmar que la curva medida es próxima y se corresponde a la real- 
 
 Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
 
