@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.5)  26 JUN 2019 19:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.5)  26 JUN 2019 19:54
 entering extended mode
 **"./TP FE.tex"
 ("TP FE.tex"
@@ -607,6 +607,13 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 )) ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
+
+
+LaTeX Warning: Label `fig:diodozen' multiply defined.
+
+
+LaTeX Warning: Label `fig:diodoled' multiply defined.
+
 )
 \openout1 = `"TP FE.aux"'.
 
@@ -758,60 +765,54 @@ Package pdftex.def Info: ./Imagenes/IV1N4007.PNG  used on input line 76.
 <./Imagenes/CurvaZenerEntera.png, id=23, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaZenerEntera.png Graphic file (type png)
 <use ./Imagenes/CurvaZenerEntera.png>
-Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 83
+Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 85
 .
 (pdftex.def)             Requested size: 347.4297pt x 260.58421pt.
 <./Imagenes/IVZener.PNG, id=24, 428.35031pt x 411.03563pt>
 File: ./Imagenes/IVZener.PNG Graphic file (type png)
 <use ./Imagenes/IVZener.PNG>
-Package pdftex.def Info: ./Imagenes/IVZener.PNG  used on input line 91.
+Package pdftex.def Info: ./Imagenes/IVZener.PNG  used on input line 93.
 (pdftex.def)             Requested size: 347.4297pt x 333.38861pt.
  [2 <./Imagenes/IV1N4007.PNG> <./Imagenes/CurvaZenerEntera.png>]
 <./Imagenes/CurvaDiodosLed.png, id=30, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaDiodosLed.png Graphic file (type png)
 <use ./Imagenes/CurvaDiodosLed.png>
-Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 99.
-(pdftex.def)             Requested size: 347.4297pt x 260.58421pt.
-File: ./Imagenes/CurvaDiodosLed.png Graphic file (type png)
-<use ./Imagenes/CurvaDiodosLed.png>
-Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 106.
+Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 101.
 
 (pdftex.def)             Requested size: 347.4297pt x 260.58421pt.
+<./Imagenes/IV-ledFab.PNG, id=31, 339.51843pt x 306.39468pt>
+File: ./Imagenes/IV-ledFab.PNG Graphic file (type png)
+<use ./Imagenes/IV-ledFab.PNG>
+Package pdftex.def Info: ./Imagenes/IV-ledFab.PNG  used on input line 108.
+(pdftex.def)             Requested size: 347.4297pt x 313.54698pt.
  [3 <./Imagenes/IVZener.PNG> <./Imagenes/CurvaDiodosLed.png>]
-<./Imagenes/commonEmitter.jpg, id=37, 584.93532pt x 312.41719pt>
+<./Imagenes/commonEmitter.jpg, id=38, 584.93532pt x 312.41719pt>
 File: ./Imagenes/commonEmitter.jpg Graphic file (type jpg)
 <use ./Imagenes/commonEmitter.jpg>
-Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 122.
+Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 124.
 (pdftex.def)             Requested size: 297.80121pt x 159.06369pt.
-<./Imagenes/CircEq.PNG, id=38, 973.38657pt x 211.54031pt>
+ [4 <./Imagenes/IV-ledFab.PNG>]
+<./Imagenes/CircEq.PNG, id=43, 973.38657pt x 211.54031pt>
 File: ./Imagenes/CircEq.PNG Graphic file (type png)
 <use ./Imagenes/CircEq.PNG>
-Package pdftex.def Info: ./Imagenes/CircEq.PNG  used on input line 131.
+Package pdftex.def Info: ./Imagenes/CircEq.PNG  used on input line 133.
 (pdftex.def)             Requested size: 496.33032pt x 107.86475pt.
- [4 <./Imagenes/commonEmitter.jpg>]
-<./Imagenes/RtaF2.png, id=42, 462.528pt x 346.896pt>
+<./Imagenes/RtaF2.png, id=44, 462.528pt x 346.896pt>
 File: ./Imagenes/RtaF2.png Graphic file (type png)
 <use ./Imagenes/RtaF2.png>
-Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 144.
+Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 146.
 (pdftex.def)             Requested size: 446.69426pt x 335.03836pt.
- [5 <./Imagenes/CircEq.PNG> <./Imagenes/RtaF2.png>]
-<./Imagenes/RtaF3.png, id=49, 812.28468pt x 379.4175pt>
-File: ./Imagenes/RtaF3.png Graphic file (type png)
-<use ./Imagenes/RtaF3.png>
-Package pdftex.def Info: ./Imagenes/RtaF3.png  used on input line 201.
-(pdftex.def)             Requested size: 446.69426pt x 208.64552pt.
- [6]
-<./Imagenes/RtaF3RC.png, id=55, 1025.33063pt x 458.46281pt>
-File: ./Imagenes/RtaF3RC.png Graphic file (type png)
-<use ./Imagenes/RtaF3RC.png>
-Package pdftex.def Info: ./Imagenes/RtaF3RC.png  used on input line 208.
-(pdftex.def)             Requested size: 496.33032pt x 221.92746pt.
+ [5 <./Imagenes/commonEmitter.jpg> <./Imagenes/CircEq.PNG>] [6 <./Imagenes/RtaF
+2.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--220
+LaTeX Warning: Reference `fig:rcmodel' on page 7 undefined on input line 199.
 
- []
-
-[7 <./Imagenes/RtaF3.png> <./Imagenes/RtaF3RC.png>] ("TP FE.aux"
+<./Imagenes/capVsDiodo.png, id=56, 628.0263pt x 363.5181pt>
+File: ./Imagenes/capVsDiodo.png Graphic file (type png)
+<use ./Imagenes/capVsDiodo.png>
+Package pdftex.def Info: ./Imagenes/capVsDiodo.png  used on input line 203.
+(pdftex.def)             Requested size: 446.69426pt x 258.56558pt.
+[7 <./Imagenes/capVsDiodo.png>] ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -819,33 +820,37 @@ LaTeX Info: Redefining \% on input line 6.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22053 strings out of 492945
- 510649 string characters out of 3126253
- 651302 words of memory out of 3000000
- 25590 multiletter control sequences out of 15000+200000
- 17867 words of font info for 69 fonts, out of 3000000 for 9000
+ 22055 strings out of 492945
+ 510705 string characters out of 3126253
+ 638212 words of memory out of 3000000
+ 25591 multiletter control sequences out of 15000+200000
+ 18175 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,55p,941b,921s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,55p,1005b,921s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmcsc10.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ellon/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ellon/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ell
-on/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr7.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ellon/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "TP FE.pdf" (8 pages, 382297 bytes).
+/cm/cmbx10.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ellon/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ellon/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/el
+lon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Users/ellon/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ellon/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ellon/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ellon/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "TP FE.pdf" (8 pages, 411379 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

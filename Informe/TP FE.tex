@@ -78,13 +78,15 @@ Mientras que la gráfica provista por el fabricante es :
 	\label{fig:diodozenfab}
 \end{figure}
 
+Aunque en un primera observación las figuras (\ref{fig:diodorect}) y (\ref{fig:diodozenfab}) se ven diferentes, cabe aclarar que esto se debe a una diferencia de escala utilizada en cada una.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{CurvaZenerEntera.png}
 	\caption{Superposición de las curva característica medida/simulada del diodo zener.}
 	\label{fig:diodozen}
 \end{figure}
-Se comparará las mediciones y la simulacion con la datasheet de un diodo zener de 12 V 1n4748A.
+Se comparará las mediciones y la simulación con la datasheet de un diodo zener de 12 V 1n4748A.
 
 \begin{figure}[H]
 	\centering
@@ -172,7 +174,7 @@ Se quiso analizar la respuesta en frecuencia del circuito en la figura (\ref{cir
 De esta manera, utilizando \texttt{ltsipce}, se obtuvo el diagrama de Bode ilustrado en la figura (\ref{fig:rtaf}).
 
 Se puede observar como el comportamiento de la respuesta en frecuencia es similar a la de un filtro pasabajos de primer orden compuesto por un polo en $f=f_c$. Esto indica que el diodo puede ser asociado a un elemento capacitivo.
-Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|= -3 \ dB} \approx 800 \ KHz\].
+Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|= -3 \ dB} \approx 800 \ KHz\]
 
 Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia, debido a que tiene un comportamiento similar a un filtro pasabajos RC. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1 \ T\Omega$, mientras que la capacitancia del circuito equivalente puede ser calculada como \[c=\frac{1}{2\pi R f_c}\] obteniendo un valor de $1,989 \ pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95 \ pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4 \ pF$.
 
@@ -202,17 +204,6 @@ Además, se simuló el diagrama de Bode en \texttt{ltspice} de dicho circuito, c
 	\caption{Superposicion de curva del diodo Spice vs Curva por modelo capacitivo.}
 	\label{fig:rtaf}
 \end{figure}
-
-
-
-
-
-\textcolor{red}{COMPARAR CON MODELO TEORICO!!}\\
-\textcolor{red}{NO REPETIR MEDICIONES ES INADMISIBLE}\\
-\textcolor{red}{NO EXPLICADO COMO SACAMOS LA GANANCIA}\\
-\textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}\\
-\textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}\\
-
 
 \end{document}
 
