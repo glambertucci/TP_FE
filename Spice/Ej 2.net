@@ -1,0 +1,21 @@
+* C:\Users\Acer\Desktop\GitHub\TP_FE\Spice\Ej 2.asc
+Rg N002 IN 50
+R1 B N001 100k
+R2 0 B 27k
+RE 0 E 1k5
+RC c N001 5.6k
+R6 0 OUT 10k
+C1 OUT c 10n
+C3 N002 B 10n
+VCC N001 0 12
+Q1 c B E 0 BC547B
+CE E 0 1µ
+V1 IN 0 AC 100m
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Acer\Documents\LTspiceXVII\lib\cmp\standard.bjt
+;.op
+;.tran 100m startup
+.ac dec 100 1 10meg
+.backanno
+.end
