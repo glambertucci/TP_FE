@@ -44,7 +44,7 @@ En el trabajo presente se llevó adelante el estudio de distintos tipos de diodo
 
 \subsection*{Medición de Diodos}
 
-Se realizó la medición de las curvas características de tres diodos distintos: Rectificador 1N4148, Diodo Zener 12V y LED rojo en ese orden respectivamente. Los diodos fueron conectados de la forma presentada en el circuito (\ref{circ:1}).
+Se realizó la medición de las curvas características de tres diodos distintos: Rectificador 1N4148, Diodo Zener 12V y LED rojo de 5mm en ese orden respectivamente. Los diodos fueron conectados de la forma presentada en el circuito (\ref{circ:1}).
 
 \begin{figure}[H]
 \begin{center}
@@ -60,9 +60,9 @@ Se realizó la medición de las curvas características de tres diodos distintos
 \label{circ:1}
 \end{figure}
 
-Utilizando multímetros para el diodo rectificador y el diodo zener, y el osciloscopio para el LED, se observaron los comportamientos de cada diodo a ciertas tensiones para posteriormente graficar las curvas características correspondiente a cada uno.
+Haciendo uso de multímetros para el diodo rectificador y el diodo zener, y el osciloscopio para el LED, se observaron los comportamientos de cada diodo a ciertas tensiones para posteriormente graficar las curvas características correspondiente a cada uno.
 
-Se realizó una superposición de las curvas de valores medidos en el laboratorio con las curvas teóricas realizadas con datos los datos proporcionados por el fabricante de cada dispositivo. Al costado de cada gráfico se muestra la curva obtenida mediante la simulación del circuito con el uso de \texttt{ltspice}.
+Se realizó una superposición de las curvas de valores medidos en el laboratorio con las curvas teóricas realizadas con los datos proporcionados por el fabricante de cada dispositivo. Al costado de cada gráfico se muestra la curva obtenida mediante la simulación del circuito con el uso de \texttt{ltspice}.
 
 \begin{figure}[H]
 	\centering
@@ -151,6 +151,8 @@ Los valores obtenidos fueron los siguientes:
 $C= 1,93 pF$
 \end{center}
 
+\textcolor{red}{VALOR DEL RD??? QUE SEA LA MISMA QUE LA FIG 7 ESTA MAL. LA CAPACITANCIA DE FABRICANTE ES DE 15pF Y LA QUE PUSIMOS ES DE 2??}
+
 \begin{figure}[H]
 \begin{center}\begin{circuitikz}[scale=1.6]\draw
 (0,1) to[V, l=$DC$,a=$5V$] (0,2)
@@ -169,10 +171,16 @@ El fabricante en su hoja de datos declara una capacitancia de juntura típica de
 
 \section*{Conclusión}
 
+\textcolor{red}{COMPARAR CON MODELO TEORICO!!}
+\textcolor{red}{NO REPETIR MEDICIONES ES INADMISIBLE}
+\textcolor{red}{NO EXPLICADO COMO SACAMOS LA GANANCIA}
+\textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}
+\textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}
+
 Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
-\vfill
+
 Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
-\vfill
+
 Por último, la respuesta en frecuencia del último punto mostró que un diodo conectado de esa forma se puede asociar a un capacitor. Esto se sustenta en que la capacitancia declarada por el fabricante es similar a la obtenida mediante un proceso de simulación.
 
 
