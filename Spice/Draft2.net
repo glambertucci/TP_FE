@@ -1,0 +1,10 @@
+* C:\Users\Acer\Desktop\GitHub\TP_FE\Spice\Draft2.asc
+R1 N001 A 50
+R2 N002 N001 500K
+V§AC1 N003 0 AC AC 1
+V§DC1 A N003 5
+C1 N002 0 1.95pf
+R3 N002 0 1e12
+.ac dec 1MEG 1 1G
+.backanno
+.end
