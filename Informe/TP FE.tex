@@ -98,6 +98,17 @@ Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice
 
 \end{figure}
 
+Para este circuito se realizo el analisis de pequeña señal, reduciendolo al siguiente circuito
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1 \textwidth]{CircEq.PNG}	
+	\caption{Analisis de pequeña señak.}
+	\label{fig:littleSignal}
+\end{figure}
+A partir de este modelo se pudo calcular la transferencia quedando esta de la siguiente manera \[H(s)=\frac{R_1\parallel R_2\parallel R_\pi}{R_g+R_1\parallel R_2\parallel R_\pi}\cdot \frac{1}{R_\pi} \cdot \beta \cdot r_0 \parallel R_c \parallel R_L  \]
+Obteniendo los valores de $R_\pi$ = ??(ver whatsapp) Obtenida a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \]
+ obteniendo Ic del spice y calculando $V_T$ $\approx$ 25mV
+El valor de $R_0$ fue sacado de la simulación. El valor de $\beta$ fue sacado de la datasheet , dado a que el fabricante da un rango de valores, elegimos un valor de 295 (CREO FIJATE LO QUE DIGA EL WHATSAPP (QUE MANDE DEL SPICE))  
 Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $44,36 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
 
 \begin{figure}[H]
