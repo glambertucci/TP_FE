@@ -137,10 +137,10 @@ Se quizo analizar la respuesta en frecuencia del circuito en la figura (\ref{cir
 	\label{fig:rtaf}
 \end{figure}
 
-Se puede observar como el comportamiento de la respuesta en frecuencia es similar a la de un filtro pasabajos de primer orden. Esto indica que el diodo puede ser asociado a un elemento capacitivo.
-Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo $f_c \approx 800KHz$.
+Se puede observar como el comportamiento de la respuesta en frecuencia es similar a la de un filtro pasabajos de primer orden compuesto por un polo en $f=f_c$. Esto indica que el diodo puede ser asociado a un elemento capacitivo.
+Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|=-3dB} \approx 800KHz\]
 
-Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1T\Omega$. La capacitancia del circuito equivalente puede ser calculada como $c=\frac{1}{2\pi R f_c}$, obteniendo un valor de $1,989pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4pF$.
+Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1T\Omega$. La capacitancia del circuito equivalente puede ser calculada como \[c=\frac{1}{2\pi R f_c}\] obteniendo un valor de $1,989pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4pF$.
 
 Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1N4007.
 
