@@ -93,7 +93,7 @@ Como el LED utilizado para simulación no fue exactamente el utilizado en el lab
 
 \subsection*{Simulación de Circuito con Transistor}
 
-Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice}:
+Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice} el cual es un amplificador mediante el uso de un transistor npn BC547B:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6 \textwidth]{commonEmitter.jpg}	
@@ -112,7 +112,7 @@ Para este circuito se realizo el análisis de pequeña señal, reduciéndolo al 
 A partir de este modelo se pudo calcular la transferencia quedando esta de la siguiente manera \[H(s)=\frac{R_1\parallel R_2\parallel R_\pi}{R_g+R_1\parallel R_2\parallel R_\pi}\cdot \frac{1}{R_\pi} \cdot \beta \cdot r_0 \parallel R_c \parallel R_L  \]
 Obteniendo los valores de $R_\pi = 6,32 \cdot 10^{3} \ \Omega$ a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \] utilizando Ic del spice y calculando $V_T$ $\approx 25 \ mV$ (temperatura ambiente).
 El valor de $R_0$ fue sacado de la simulación. El valor de $\beta$ fue sacado de la datasheet , dado a que el fabricante da un rango de valores, elegimos un valor de 295. 
-Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $44,36 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
+Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $43.82 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
 
 \begin{figure}[H]
 	\centering
@@ -120,7 +120,7 @@ Analizando la función transferencia de tensión de este, se observa que la tran
 	\caption{Diagrama de BODE para el circuito dado siendo la curva de mayor trazo el diagrama de amplitud.}
 	\label{fig:bode}
 \end{figure}
-
+Se puede observar la zona de validez para el cualculo.
 \subsection*{Simulación del Circuito con Diodo}
 
 Se quizo analizar la respuesta en frecuencia del circuito en la figura (\ref{circ:3}) con \texttt{ltspice}, obteniendo el diagrama de Bode en la figura (\ref{fig:rtaf}).

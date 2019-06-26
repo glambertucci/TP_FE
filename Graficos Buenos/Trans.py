@@ -82,6 +82,10 @@ for x in range (542,len(fase)):
     fase[x] = fase[x]-360
 plt.plot(frec,modulo,'b',label ='Modulo')
 plt.plot(frec,fase,'b--',label = 'Fase')
+t = np.arange(30e3, 3e6, 100)
+Hcalc = np.full(29700, 43.82)
+#dA 43.82
+plt.plot(t,Hcalc,'r',label ='Modulo Calculado')
 legend = plt.legend(loc='lower left', shadow=True, fontsize='x-large')
 plt.xscale('log')
 plt.ylabel("Fase/Amplitud")
