@@ -88,7 +88,7 @@ zenerV = np.asarray([-11.79,-11.71,-11.68,-11.62,-11.56,-11.53,-11.48,-11.3,-10.
 zenerI = np.asarray([-7,-4.7,-3.8,-2.6,-1.1,-0.651,-0.216,-0.001,-0.001,0,0.001,0.001,0.056,0.168,0.274,0.792,1.636,4.1,5.1]) *1/1000
 plt.plot(zenerV,zenerI,'-bo')
 
-data = read_file_spice("BZX384B12_char_zener.txt")
+data = read_file_spice("prueba2.txt")
 tensionDiodo = np.asarray(data["Vd"])
 corrienteDiodo = np.asarray(data["Id"])
 plt.plot(tensionDiodo,corrienteDiodo,'r')

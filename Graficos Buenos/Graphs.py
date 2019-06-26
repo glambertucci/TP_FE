@@ -80,15 +80,15 @@ corrienteRes = (tensionFuente - tensionLed) * 1/470
 tensionLedSmooth = pd.DataFrame(tensionLed)
 corrienteResSmooth = pd.DataFrame(corrienteRes)
 
-{#plt.plot(tensionLedSmooth.ewm(com=20).mean(),corrienteResSmooth.ewm(com=20).mean())
+#plt.plot(tensionLedSmooth.ewm(com=20).mean(),corrienteResSmooth.ewm(com=20).mean())
 #plt.plot(tensionLedSmooth,corrienteResSmooth)
 #plt.ylabel("Corriente (A)")
 #plt.xlabel("Tension (V)")
 #plt.grid(which='major', linestyle='-', linewidth=0.3, color='black')
 #plt.grid(which='minor', linestyle=':', linewidth=0.1, color='black')
 #plt.show()
-}
-data = read_file_spice("try.txt")
+
+data = read_file_spice("Led Rojo.txt")
 tensionDiodo = np.asarray(data["Vd"])
 corrienteDiodo = np.asarray(data["Id"])
 plt.plot(tensionDiodo,corrienteDiodo)
