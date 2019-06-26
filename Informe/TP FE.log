@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  26 JUN 2019 02:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  26 JUN 2019 02:36
 entering extended mode
 **"./TP FE.tex"
 ("TP FE.tex"
@@ -757,35 +757,32 @@ Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 83.
 File: ./Imagenes/commonEmitter.jpg Graphic file (type jpg)
 <use ./Imagenes/commonEmitter.jpg>
 Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 95.
-(pdftex.def)             Requested size: 248.16516pt x 132.54433pt.
+(pdftex.def)             Requested size: 297.80121pt x 159.06369pt.
  [2 <./Imagenes/CurvaZenerEntera.png> <./Imagenes/CurvaDiodosLed.png>]
 <./Imagenes/RtaF2.png, id=30, 870.25125pt x 416.30531pt>
 File: ./Imagenes/RtaF2.png Graphic file (type png)
 <use ./Imagenes/RtaF2.png>
 Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 105.
-(pdftex.def)             Requested size: 496.33032pt x 237.43623pt.
+(pdftex.def)             Requested size: 446.69426pt x 213.69135pt.
 <./Imagenes/RtaF3.png, id=31, 812.28468pt x 379.4175pt>
 File: ./Imagenes/RtaF3.png Graphic file (type png)
 <use ./Imagenes/RtaF3.png>
 Package pdftex.def Info: ./Imagenes/RtaF3.png  used on input line 135.
-(pdftex.def)             Requested size: 496.33032pt x 231.83221pt.
+(pdftex.def)             Requested size: 446.69426pt x 208.64552pt.
  [3 <./Imagenes/commonEmitter.jpg> <./Imagenes/RtaF2.png>] [4 <./Imagenes/RtaF3
-.png>] [5] ("TP FE.aux"
+.png>] ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 21770 strings out of 492945
- 502626 string characters out of 3126696
- 634424 words of memory out of 3000000
- 25312 multiletter control sequences out of 15000+200000
+ 21794 strings out of 492945
+ 503268 string characters out of 3126696
+ 636728 words of memory out of 3000000
+ 25336 multiletter control sequences out of 15000+200000
  17867 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,55p,559b,918s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -802,9 +799,9 @@ s/cm/cmr7.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Acer/AppData/Local/Programs/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "TP FE.pdf" (6 pages, 315439 bytes).
+Output written on "TP FE.pdf" (5 pages, 314677 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
