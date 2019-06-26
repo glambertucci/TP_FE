@@ -62,7 +62,7 @@ Se realizó la medición de las curvas características de tres diodos distintos
 
 Haciendo uso de multímetros para el diodo rectificador y el diodo zener, y el osciloscopio para el LED, se observaron los comportamientos de cada diodo a ciertas tensiones para posteriormente graficar las curvas características correspondiente a cada uno.
 
-Se realizó una superposición de las curvas de valores medidos en el laboratorio con las curvas teóricas realizadas con los datos proporcionados por el fabricante de cada dispositivo. Al costado de cada gráfico se muestra la curva obtenida mediante la simulación del circuito con el uso de \texttt{ltspice}.
+Se realizó una superposición de las curvas de valores medidos en el laboratorio con las curvas simuladas en \texttt{ltspice} para cada dispositivo.
 
 \begin{figure}[H]
 	\centering
@@ -78,6 +78,8 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 	\label{fig:diodozen}
 \end{figure}
 
+Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoria con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5V$ en módulo.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{CurvaDiodosLed.png}
@@ -85,7 +87,9 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 	\label{fig:diodoled}
 \end{figure}
 
-\textcolor{red}{HACER ANALISIS}
+Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 a 5V). Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales, se decidió utilizar un suavizamiento exponencial para reducir el ruido. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
+Se puede observar que existen leves discrepancias entre la curva de la simulación y la medición de laboratorio. La mayor diferencia se encuentra en la tensión de foward del LED, la cual es de $\approx 0,2V$.
+Como el LED utilizado para simulación no fue exactamente el utilizado en el laboratorio, sino fue elegido a causa de las similares características, se consideran aceptables las diferencias entre ambas curvas.
 
 \subsection*{Simulación de Circuito con Transistor}
 
