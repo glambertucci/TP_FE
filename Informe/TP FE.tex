@@ -87,11 +87,11 @@ Se puede observar que tanto para el diodo rectificador como para el diodo zener 
 	\label{fig:diodoled}
 \end{figure}
 
-Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 V a 5 V). Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales, se decidió utilizar un suavizamiento exponencial para reducir el ruido. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
+Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 V a 5 V). Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales atribuidas al ruido electromagnético captado por el osciloscopio, razón por la cual la curva no se observa suave, se decidió utilizar un suavizamiento exponencial para reducir esta. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
 Se puede observar que existen leves discrepancias entre la curva de la simulación y la medición de laboratorio. La mayor diferencia se encuentra en la tensión de foward del LED,en  la cual la discrepancia es de $\approx 0,2 \ V$.
 Como el LED utilizado para simulación no fue exactamente el utilizado en el laboratorio, sino fue elegido a causa de las similares características, se consideran aceptables las diferencias entre ambas curvas.
 
-Luego se puede afirmar que los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados, conclusión a la que se llega al comparar las curvas medidas con las teóricas simuladas en las figuras (\ref{fig:diodozen}), (\ref{fig:diodorect}) y (\ref{fig:diodoled}). Si bien, al observar el último gráfico se denota que la curva medida no es una suave, esto se atribuye a la gran cantidad de mediciones del osciloscopio y al uso del suavizamiento exponencial, el cual busca reducir la dispersión existente. Si bien esto no fue logrado en su totalidad, se consiguió con gran precisión, lo cual no impide poder afirmar que la curva medida es próxima y se corresponde a la real.
+Luego, se puede afirmar que los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados, conclusión a la que se llega al comparar las curvas medidas con las teóricas simuladas en las figuras (\ref{fig:diodozen}), (\ref{fig:diodorect}) y (\ref{fig:diodoled}).
 
 \subsection*{Simulación de Circuito con Transistor}
 
@@ -112,7 +112,7 @@ Para este circuito se realizo el análisis de pequeña señal, reduciéndolo al 
 	\label{fig:littleSignal}
 \end{figure}
 
-A partir de este modelo se pudo calcular la transferencia quedando esta de la siguiente manera \[H(s)=\frac{R_1\parallel R_2\parallel R_\pi}{R_g+R_1\parallel R_2\parallel R_\pi}\cdot \frac{1}{R_\pi} \cdot \beta \cdot r_0 \parallel R_c \parallel R_L  \]
+A partir de este modelo se pudo calcular la transferencia en la zona de las frecuencias medias, quedando esta de la siguiente manera: \[H(s)=\frac{R_1\parallel R_2\parallel R_\pi}{R_g+R_1\parallel R_2\parallel R_\pi}\cdot \frac{1}{R_\pi} \cdot \beta \cdot r_0 \parallel R_c \parallel R_L  \]
 
 Se obtuvieron los valores de $R_\pi = 6,32 \cdot 10^{3} \ \Omega$ a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \] utilizando Ic del spice y calculando $V_T$ $\approx 25 \ mV$ (temperatura ambiente).
 El valor de $R_0$ se obtuvo de la simulación, mientras que el de $\beta$, de la datasheet. Como el fabricante da un rango de valores, elegimos un valor de 295.
