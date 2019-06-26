@@ -111,20 +111,23 @@ Para este circuito se realizo el análisis de pequeña señal, reduciéndolo al 
 	\caption{Analisis de pequeña señal.}
 	\label{fig:littleSignal}
 \end{figure}
+
 A partir de este modelo se pudo calcular la transferencia quedando esta de la siguiente manera \[H(s)=\frac{R_1\parallel R_2\parallel R_\pi}{R_g+R_1\parallel R_2\parallel R_\pi}\cdot \frac{1}{R_\pi} \cdot \beta \cdot r_0 \parallel R_c \parallel R_L  \]
 
 Se obtuvieron los valores de $R_\pi = 6,32 \cdot 10^{3} \ \Omega$ a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \] utilizando Ic del spice y calculando $V_T$ $\approx 25 \ mV$ (temperatura ambiente).
-El valor de $R_0$ se obtuvo de la simulación, mientras que el de $\beta$, de la datasheet. Como el fabricante da un rango de valores, elegimos un valor de 295. 
-Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $43.82 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
-
+El valor de $R_0$ se obtuvo de la simulación, mientras que el de $\beta$, de la datasheet. Como el fabricante da un rango de valores, elegimos un valor de 295.
+Valiendose del uso de simulaciones en \texttt{ltspice}, se puede usar dichas curvas como teóricas, lo que permite afirmar que, analizando la función transferencia de tensión del circuito, se observa que para la zona constante, el valor calculado es de $43.82 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en la simulación.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{RtaF2.png}	
-	\caption{Diagrama de BODE para el circuito dado siendo la curva de mayor trazo el diagrama de amplitud.}
+	\caption{Diagrama de BODE teórico para el circuito dado, siendo la curva de mayor trazo el diagrama de amplitud.}
 	\label{fig:bode}
 \end{figure}
-Se puede observar la zona de validez para el cualculo.
+
+Una vez efectuados los cálculos, se observa con detenimiento la figura (\ref{fig:bode}). En esta, se muestra el diagrama de BODE del circuito, el cual fue obtenido mediante simulaciones en \texttt{ltspice}, tomando este como el teórico. Por otro lado, se señala en rojo la zona en la cual el análisis realizado es valido (zona roja, coincidente 
+
+
 \subsection*{Simulación del Circuito con Diodo}
 
 Se quizo analizar la respuesta en frecuencia del circuito en la figura (\ref{circ:3}) con \texttt{ltspice}, obteniendo el diagrama de Bode en la figura (\ref{fig:rtaf}).
@@ -186,7 +189,7 @@ Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1
 \textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}
 \textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}
 
-Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
+
 
 Por último, la respuesta en frecuencia del último punto mostró que un diodo conectado de esa forma se puede asociar a un capacitor. Esto se sustenta en que la capacitancia declarada por el fabricante es similar a la obtenida mediante un proceso de simulación.
 
