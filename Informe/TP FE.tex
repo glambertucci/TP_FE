@@ -6,7 +6,9 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{xcolor}
+\usepackage{subfig}
 \usepackage{gensymb}
+
 \usepackage{float}
 \usepackage{graphicx}
 \graphicspath{ {./Imagenes/} }
@@ -64,52 +66,41 @@ Haciendo uso de multímetros para el diodo rectificador y el diodo zener, y el o
 
 Se realizó una superposición de las curvas de valores medidos en el laboratorio con las curvas simuladas en \texttt{ltspice} para cada dispositivo.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{CurvaDiodoRectificador.png}
-	\caption{Superposición de las curva característica medida/simulada del diodo rectificador 1N4148.}
-	\label{fig:diodorect}
-\end{figure}
-Mientras que la gráfica provista por el fabricante es : 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{IV1N4007.PNG}
-	\caption{I-V Fabricante 1N4007}
-	\label{fig:diodozenfab}
+
+
+\begin{figure}[H]%
+    \centering
+    \subfloat[Superposición medida/simulada]{{\includegraphics[width=0.45\textwidth]{CurvaDiodoRectificador.png} }}%
+    \qquad
+    \subfloat[Curva escala semilogaritmica del fabricante]{{\includegraphics[width=0.45\textwidth]{IV1N4007.PNG} }}%
+    \caption{Respuestas en frecuencia del diodo 1N4007. Notar que la escala de la curva provista por el fabricante oscila entre octavas y decadas, mientras que las curvas medidas y simuladas poseen escala lineal.}%
 \end{figure}
 
-Aunque en un primera observación las figuras (\ref{fig:diodorect}) y (\ref{fig:diodozenfab}) se ven diferentes, cabe aclarar que esto se debe a una diferencia de escala utilizada en cada una.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{CurvaZenerEntera.png}
-	\caption{Superposición de las curva característica medida/simulada del diodo zener.}
-	\label{fig:diodozen}
-\end{figure}
-Se comparará las mediciones y la simulación con la datasheet de un diodo zener de 12 V 1n4748A.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{IVZener.PNG}
-	\caption{I-V Zener Fabricante}
-	\label{fig:diodozen}
+\begin{figure}[H]%
+    \centering
+    \subfloat[Superposición curva medida/simulada]{{\includegraphics[width=0.525\textwidth]{CurvaZenerEntera.png} }}%
+    \qquad
+    \subfloat[Curva escala semilogaritmica del fabricante]{{\includegraphics[width=0.375\textwidth]{IVZener.PNG} }}%
+    \caption{Respuestas en frecuencia del diodo zener 12V. Notar que la escala de la curva provista por el fabricante es logarítmica, mientras que las curvas medidas y simuladas poseen escala lineal. Además, no se encuentran graficadas las zonas de manera idéntica.}%
 \end{figure}
+Se compararon las mediciones y la simulacion con la datasheet de un diodo zener de 12V 1N4748A.
 Tengase en cuenta que la curva a mirara en la figura (\ref{fig:diodozen}) es la (2) siendo esta la curva  a temperatura ambiente (25\degree C) \\
+
 Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoría con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12 \ V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5 \ V$ en módulo.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{CurvaDiodosLed.png}
-	\caption{Superposición de las curva característica medida/simulada del diodo LED.}
-	\label{fig:diodoled}
+\begin{figure}[H]%
+    \centering
+    \subfloat[Superposición curva medida/simulada]{{\includegraphics[width=0.525\textwidth]{CurvaDiodosLed.png} }}%
+    \qquad
+    \subfloat[Curva escala semilogaritmica del fabricante]{{\includegraphics[width=0.375\textwidth]{IV-ledFab.PNG} }}%
+    \caption{Respuestas en frecuencia del LED rojo. Notar que la escala de la curva provista por el fabricante es logarítmica, mientras que las curvas medidas y simuladas poseen escala lineal. Además, no se encuentran graficadas las zonas de manera idéntica.}%
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{IV-ledFab.PNG}
-	\caption{curva característica del diodo LED por el fabricante.}
-	\label{fig:diodoled}
-\end{figure}
+
+
+
 Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 V a 5 V). Además, como los diodos poseen un comportamiento capacitivo, se decidió usar las puntas del osciloscopio en x10, ya que estas tienen una mayor resistencia y menor capacitancia. Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales atribuidas al ruido electromagnético captado por el osciloscopio, razón por la cual la curva no se observa suave, se decidió utilizar un suavizamiento exponencial para reducir esta. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
 
 Se puede observar que existen leves discrepancias entre la curva de la simulación y la medición de laboratorio. La mayor diferencia se encuentra en la tensión de foward del LED,en  la cual la discrepancia es de $\approx 0,2 \ V$.

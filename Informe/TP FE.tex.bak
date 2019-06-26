@@ -6,6 +6,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{xcolor}
+\usepackage{subfig}
 
 \usepackage{float}
 \usepackage{graphicx}
@@ -44,7 +45,7 @@ En el trabajo presente se llevó adelante el estudio de distintos tipos de diodo
 
 \subsection*{Medición de Diodos}
 
-Se realizó la medición de las curvas características de tres diodos distintos: Rectificador 1N4148, Diodo Zener 12V y LED rojo de 5mm en ese orden respectivamente. Los diodos fueron conectados de la forma presentada en el circuito (\ref{circ:1}).
+Se realizó la medición de las curvas características de tres diodos distintos: Rectificador 1N4007, Diodo Zener 12 V y LED rojo de 5 mm en ese orden respectivamente. Los diodos fueron conectados de la forma presentada en el circuito (\ref{circ:1}).
 
 \begin{figure}[H]
 \begin{center}
@@ -64,21 +65,26 @@ Haciendo uso de multímetros para el diodo rectificador y el diodo zener, y el o
 
 Se realizó una superposición de las curvas de valores medidos en el laboratorio con las curvas simuladas en \texttt{ltspice} para cada dispositivo.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{CurvaDiodoRectificador.png}
-	\caption{Superposición de las curva característica medida/simulada del diodo rectificador 1N4148.}
-	\label{fig:diodorect}
+
+\begin{figure}[H]%
+    \centering
+    \subfloat[Superposición medida/simulada]{{\includegraphics[width=0.45\textwidth]{CurvaDiodoRectificador.png} }}%
+    \qquad
+    \subfloat[Curva escala semilogaritmica del fabricante]{{\includegraphics[width=0.45\textwidth]{IV1N4007.PNG} }}%
+    \caption{Respuestas en frecuencia del diodo 1N4007. Notar que la escala de la curva provista por el fabricante oscila entre octavas y decadas, mientras que las curvas medidas y simuladas poseen escala lineal.}%
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{CurvaZenerEntera.png}
-	\caption{Superposición de las curva característica medida/simulada del diodo zener.}
-	\label{fig:diodozen}
+
+\begin{figure}[H]%
+    \centering
+    \subfloat[Superposición medida/simulada]{{\includegraphics[width=0.525\textwidth]{CurvaZenerEntera.png} }}%
+    \qquad
+    \subfloat[Curva escala semilogaritmica del fabricante]{{\includegraphics[width=0.375\textwidth]{IVZener.PNG} }}%
+    \caption{Respuestas en frecuencia del diodo zener 12V. Notar que la escala de la curva provista por el fabricante se encuentra en escala logarítmica, mientras que las curvas medidas y simuladas poseen escala lineal. Además, no se encuentran graficadas la}%
 \end{figure}
 
-Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoria con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5V$ en módulo.
+Se compararon las mediciones y la simulacion con la datasheet de un diodo zener de 12V 1N4748A.
+Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoría con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12 \ V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5 \ V$ en módulo.
 
 \begin{figure}[H]
 	\centering
@@ -87,33 +93,55 @@ Se puede observar que tanto para el diodo rectificador como para el diodo zener 
 	\label{fig:diodoled}
 \end{figure}
 
-Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 a 5V). Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales, se decidió utilizar un suavizamiento exponencial para reducir el ruido. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
-Se pueden observar discrepancias de $\approx 0,2V$ en la tensión de foward del LED.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{IV-ledFab.PNG}
+	\caption{curva característica del diodo LED por el fabricante.}
+	\label{fig:diodoled}
+\end{figure}
+Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 V a 5 V). Además, como los diodos poseen un comportamiento capacitivo, se decidió usar las puntas del osciloscopio en x10, ya que estas tienen una mayor resistencia y menor capacitancia. Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales atribuidas al ruido electromagnético captado por el osciloscopio, razón por la cual la curva no se observa suave, se decidió utilizar un suavizamiento exponencial para reducir esta. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
+
+Se puede observar que existen leves discrepancias entre la curva de la simulación y la medición de laboratorio. La mayor diferencia se encuentra en la tensión de foward del LED,en  la cual la discrepancia es de $\approx 0,2 \ V$.
+Como el LED utilizado para simulación no fue exactamente el utilizado en el laboratorio, sino fue elegido a causa de las similares características, se consideran aceptables las diferencias entre ambas curvas.
+
+Luego, se puede afirmar que los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados, conclusión a la que se llega al comparar las curvas medidas con las teóricas simuladas en las figuras (\ref{fig:diodozen}), (\ref{fig:diodorect}) y (\ref{fig:diodoled}).
 
 \subsection*{Simulación de Circuito con Transistor}
 
-Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice}:
+Se procedió a realizar la simulación del siguiente circuito en \texttt{ltspice} el cual es un amplificador mediante el uso de un transistor npn BC547B:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6 \textwidth]{commonEmitter.jpg}	
-	\caption{Circuito provisto por la catedra.}
+	\caption{Circuito provisto por la cátedra.}
 	\label{fig:cmnemitnpn}
 
 \end{figure}
 
-Analizando la función transferencia de tensión de este, se observa que la transferencia para la zona constante es de $44,36 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en simulación.
+Para este circuito se realizo el análisis de pequeña señal, reduciéndolo al siguiente circuito
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1 \textwidth]{CircEq.PNG}	
+	\caption{Analisis de pequeña señal.}
+	\label{fig:littleSignal}
+\end{figure}
+
+A partir de este modelo se pudo calcular la transferencia en la zona de las frecuencias medias, quedando esta de la siguiente manera: \[H(s)=\frac{R_1\parallel R_2\parallel R_\pi}{R_g+R_1\parallel R_2\parallel R_\pi}\cdot \frac{1}{R_\pi} \cdot \beta \cdot r_0 \parallel R_c \parallel R_L  \]
+
+Se obtuvieron los valores de $R_\pi = 6,32 \cdot 10^{3} \ \Omega$ a partir de la formula \[R_\pi = \frac{V_T}{I_c}\cdot (\beta +1) \] utilizando Ic del spice y calculando $V_T$ $\approx 25 \ mV$ (temperatura ambiente).
+El valor de $R_0$ se obtuvo de la simulación, mientras que el de $\beta$, de la datasheet. Como el fabricante da un rango de valores, elegimos un valor de 295.
+Valiendose del uso de simulaciones en \texttt{ltspice}, las cuales fueron redibujadas en \texttt{python}, se analiza la función transferencia de tensión del circuito y se observa que para la zona constante, el valor calculado es de $43.82 \ dB$, siendo de $43,19 \ dB$ el valor obtenido en la simulación.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{RtaF2.png}	
-	\caption{Diagrama de BODE para el circuito dado siendo la curva de mayor trazo el diagrama de amplitud.}
+	\caption{Diagrama de BODE teórico para el circuito dado, siendo la curva de mayor trazo el diagrama de amplitud.}
 	\label{fig:bode}
 \end{figure}
 
+
 \subsection*{Simulación del Circuito con Diodo}
 
-Se quizo analizar la respuesta en frecuencia del circuito en la figura (\ref{circ:3}) con \texttt{ltspice}, obteniendo el diagrama de Bode en la figura (\ref{fig:rtaf}).
-
+Se quiso analizar la respuesta en frecuencia del circuito en la figura (\ref{circ:3}). Dado que el circuito no posee un comportamiento lineal, se calculó la respuesta de este en su punto de polarización Q utilizando el modelo de pequeña señal. Esto nos permite aproximar su comportamiento a uno lineal.
 \begin{figure}[H]
 \begin{center}
 \begin{circuitikz}[scale=1.5]
@@ -133,17 +161,12 @@ Se quizo analizar la respuesta en frecuencia del circuito en la figura (\ref{cir
 \label{circ:3}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\textwidth]{RtaF3.png}	
-	\caption{Respuesta en frecuencia del diodo D1N4007 siendo la curva de mayor trazo el diagrama de amplitud.}
-	\label{fig:rtaf}
-\end{figure}
+De esta manera, utilizando \texttt{ltsipce}, se obtuvo el diagrama de Bode ilustrado en la figura (\ref{fig:rtaf}).
 
 Se puede observar como el comportamiento de la respuesta en frecuencia es similar a la de un filtro pasabajos de primer orden compuesto por un polo en $f=f_c$. Esto indica que el diodo puede ser asociado a un elemento capacitivo.
-Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|=-3dB} \approx 800KHz\]
+Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|= -3 \ dB} \approx 800 \ KHz\].
 
-Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1T\Omega$. La capacitancia del circuito equivalente puede ser calculada como \[c=\frac{1}{2\pi R f_c}\] obteniendo un valor de $1,989pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4pF$.
+Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia, debido a que tiene un comportamiento similar a un filtro pasabajos RC. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1 \ T\Omega$, mientras que la capacitancia del circuito equivalente puede ser calculada como \[c=\frac{1}{2\pi R f_c}\] obteniendo un valor de $1,989 \ pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95 \ pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4 \ pF$.
 
 Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1N4007.
 
@@ -163,19 +186,29 @@ Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1
 \label{circ:4}
 \end{figure}
 
-\section*{Conclusión}
+Además, se simuló el diagrama de Bode en \texttt{ltspice} de dicho circuito, curva ilustrada en la figura (\ref{fig:rcmodel}), respaldando el modelo RC utilizado previamente.
 
-\textcolor{red}{COMPARAR CON MODELO TEORICO!!}
-\textcolor{red}{NO REPETIR MEDICIONES ES INADMISIBLE}
-\textcolor{red}{NO EXPLICADO COMO SACAMOS LA GANANCIA}
-\textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}
-\textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{RtaF3.png}	
+	\caption{Respuesta en frecuencia del diodo D1N4007 siendo la curva de mayor trazo el diagrama de amplitud.}
+	\label{fig:rtaf}
+\end{figure}
 
-Los resultados obtenidos al estudiar los tres primeros diodos se corresponden con los resultados esperados. Se observan pequeñas incongruencias en los gráficos, como por ejemplo en el gráfico (\ref{fig:diodorect}), que son atribuidos a cambios de escala de los instrumentos durante el análisis.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1 \textwidth]{RtaF3RC.png}	
+	\caption{Bode del modelo equivalente RC del diodo. La curva solida indica el modulo mientras que la difusa la fase.}
+	\label{fig:rcmodel}
+\end{figure}
 
-Luego se comprobó que, la función transferencia del segundo análisis, es acorde a la real, dejando pasar las frecuencias altas, acorde a lo esperado.
 
-Por último, la respuesta en frecuencia del último punto mostró que un diodo conectado de esa forma se puede asociar a un capacitor. Esto se sustenta en que la capacitancia declarada por el fabricante es similar a la obtenida mediante un proceso de simulación.
+
+\textcolor{red}{COMPARAR CON MODELO TEORICO!!}\\
+\textcolor{red}{NO REPETIR MEDICIONES ES INADMISIBLE}\\
+\textcolor{red}{NO EXPLICADO COMO SACAMOS LA GANANCIA}\\
+\textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}\\
+\textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}\\
 
 
 \end{document}
