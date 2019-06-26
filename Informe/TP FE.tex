@@ -150,17 +150,10 @@ Se quiso analizar la respuesta en frecuencia del circuito en la figura (\ref{cir
 
 De esta manera, utilizando \texttt{ltsipce}, se obtuvo el diagrama de Bode ilustrado en la figura (\ref{fig:rtaf}).
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\textwidth]{RtaF3.png}	
-	\caption{Respuesta en frecuencia del diodo D1N4007 siendo la curva de mayor trazo el diagrama de amplitud.}
-	\label{fig:rtaf}
-\end{figure}
-
 Se puede observar como el comportamiento de la respuesta en frecuencia es similar a la de un filtro pasabajos de primer orden compuesto por un polo en $f=f_c$. Esto indica que el diodo puede ser asociado a un elemento capacitivo.
-Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|= -3 \ dB} \approx 800 \ KHz\]
+Para obtener la frecuencia de corte, se toma el valor de la frecuencia cuando la ganancia es de -3dB, obteniendo \[f_c = f \vert_{|H(f)|= -3 \ dB} \approx 800 \ KHz\].
 
-Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1T\Omega$. La capacitancia del circuito equivalente puede ser calculada como \[c=\frac{1}{2\pi R f_c}\] obteniendo un valor de $1,989 \ pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95 \ pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4 \ pF$.
+Para caracterizar al diodo por su circuito equivalente, se utilizó un capacitor en paralelo con una resistencia, debido a que tiene un comportamiento similar a un filtro pasabajos RC. El valor de la resistencia fue obtenida por medio de la simulación la cual es de $1 \ T\Omega$, mientras que la capacitancia del circuito equivalente puede ser calculada como \[c=\frac{1}{2\pi R f_c}\] obteniendo un valor de $1,989 \ pF$. Este valor es similar al obtenido mediante el uso de \texttt{ltspice}, $1,95 \ pF$ respectivamente. Ambos valores se encuentran en el orden de la capacitancia declarada por el fabricante de $4 \ pF$.
 
 Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1N4007.
 
@@ -180,17 +173,29 @@ Finalmente, la figura (\ref{circ:4}) muestra el circuito equivalente del diodo 1
 \label{circ:4}
 \end{figure}
 
-\section*{Conclusión}
+Además, se simuló el diagrama de Bode en \texttt{ltspice} de dicho circuito, curva ilustrada en la figura (\ref{fig:rcmodel}), respaldando el modelo RC utilizado previamente.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{RtaF3.png}	
+	\caption{Respuesta en frecuencia del diodo D1N4007 siendo la curva de mayor trazo el diagrama de amplitud.}
+	\label{fig:rtaf}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1 \textwidth]{RtaF3RC.png}	
+	\caption{Bode del modelo equivalente RC del diodo. La curva solida indica el modulo mientras que la difusa la fase.}
+	\label{fig:rcmodel}
+\end{figure}
+
+
 
 \textcolor{red}{COMPARAR CON MODELO TEORICO!!}\\
 \textcolor{red}{NO REPETIR MEDICIONES ES INADMISIBLE}\\
 \textcolor{red}{NO EXPLICADO COMO SACAMOS LA GANANCIA}\\
 \textcolor{red}{QUE MODELO DE TRANSISTOR USAMOS? COMO SACAMOS RPI R0 GM?? CONSIDERAMOS CAP PARASITA?? PUNTO Q?}\\
 \textcolor{red}{REEMPLAZAR DIODO SOLO POR UN CAP ESTA MAL.}\\
-
-
-
-Por último, la respuesta en frecuencia del último punto mostró que un diodo conectado de esa forma se puede asociar a un capacitor. Esto se sustenta en que la capacitancia declarada por el fabricante es similar a la obtenida mediante un proceso de simulación.
 
 
 \end{document}
