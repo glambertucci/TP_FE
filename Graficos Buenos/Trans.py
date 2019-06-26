@@ -72,20 +72,25 @@ def read_file_spice(filename):
 
     return data
 
-data = read_file_spice("Ej2.txt")
-
+data = read_file_spice("Bode de modelo RC.txt")
+data1 = read_file_spice("diodoBode.txt")
 modulo = np.asarray(data["abs"])
 fase = np.asarray(data["pha"])
 frec = np.asarray(data["f"])
+modulo1 = np.asarray(data1["abs"])
+fase1 = np.asarray(data1["pha"])
+frec1 = np.asarray(data1["f"])
 #542
-for x in range (542,len(fase)):
-    fase[x] = fase[x]-360
-plt.plot(frec,modulo,'b',label ='Modulo')
-plt.plot(frec,fase,'b--',label = 'Fase')
-t = np.arange(30e3, 3e6, 100)
-Hcalc = np.full(29700, 43.82)
+#for x in range (542,len(fase)):
+#    fase[x] = fase[x]-360
+plt.plot(frec,modulo,'b',label ='Modelo Diodo Modulo')
+plt.plot(frec,fase,'b--',label = 'Modelo Diodo Fase')
+plt.plot(frec1,modulo1,'r',label ='Modelo Capacitor Modulo')
+plt.plot(frec1,fase1,'r--',label = 'Modelo Capacitor Fase')
+#t = np.arange(30e3, 3e6, 100)
+#Hcalc = np.full(29700, 43.82)
 #dA 43.82
-plt.plot(t,Hcalc,'r',label ='Modulo Calculado')
+#plt.plot(t,Hcalc,'r',label ='Modulo Calculado')
 legend = plt.legend(loc='lower left', shadow=True, fontsize='x-large')
 plt.xscale('log')
 plt.ylabel("Fase/Amplitud")

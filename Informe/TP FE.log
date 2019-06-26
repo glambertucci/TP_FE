@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  26 JUN 2019 20:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  26 JUN 2019 20:13
 entering extended mode
 **"./TP FE.tex"
 ("TP FE.tex"
@@ -224,6 +224,9 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@lotdepth=\count114
 \sf@top=\skip49
 \sf@bottom=\skip50
+)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -634,27 +637,23 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 )) ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-
-
-LaTeX Warning: Label `fig:diodoled' multiply defined.
-
 )
 \openout1 = `"TP FE.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -763,7 +762,19 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
- ABD: EveryShipout initializing macros (Caratula.tex
+LaTeX Info: Redefining \celsius on input line 29.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 29.
+Package gensymb Info: Using \Omega for \ohm on input line 29.
+
+Package gensymb Warning: Not defining \micro.
+
+ABD: EveryShipout initializing macros (Caratula.tex
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 4.
@@ -784,77 +795,78 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: ./Imagenes/CurvaDiodoRectificador.png Graphic file (type png)
 <use ./Imagenes/CurvaDiodoRectificador.png>
 Package pdftex.def Info: ./Imagenes/CurvaDiodoRectificador.png  used on input l
-ine 71.
+ine 73.
 (pdftex.def)             Requested size: 223.34712pt x 167.51389pt.
 <./Imagenes/IV1N4007.PNG, id=15, 373.395pt x 323.70938pt>
 File: ./Imagenes/IV1N4007.PNG Graphic file (type png)
 <use ./Imagenes/IV1N4007.PNG>
-Package pdftex.def Info: ./Imagenes/IV1N4007.PNG  used on input line 73.
+Package pdftex.def Info: ./Imagenes/IV1N4007.PNG  used on input line 75.
 (pdftex.def)             Requested size: 223.34712pt x 193.62451pt.
 <./Imagenes/CurvaZenerEntera.png, id=16, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaZenerEntera.png Graphic file (type png)
 <use ./Imagenes/CurvaZenerEntera.png>
-Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 80
+Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 83
 .
 (pdftex.def)             Requested size: 260.57039pt x 195.43552pt.
 <./Imagenes/IVZener.PNG, id=17, 428.35031pt x 411.03563pt>
 File: ./Imagenes/IVZener.PNG Graphic file (type png)
 <use ./Imagenes/IVZener.PNG>
-Package pdftex.def Info: ./Imagenes/IVZener.PNG  used on input line 82.
+Package pdftex.def Info: ./Imagenes/IVZener.PNG  used on input line 85.
 (pdftex.def)             Requested size: 186.12387pt x 178.59834pt.
  [1 <./Imagenes/CurvaDiodoRectificador.png> <./Imagenes/IV1N4007.PNG>]
+
+LaTeX Warning: Reference `fig:diodozen' on page 2 undefined on input line 89.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
 <./Imagenes/CurvaDiodosLed.png, id=27, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaDiodosLed.png Graphic file (type png)
 <use ./Imagenes/CurvaDiodosLed.png>
-Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 91.
+Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 95.
 (pdftex.def)             Requested size: 260.57039pt x 195.43552pt.
 <./Imagenes/IV-ledFab.PNG, id=28, 339.51843pt x 306.39468pt>
 File: ./Imagenes/IV-ledFab.PNG Graphic file (type png)
 <use ./Imagenes/IV-ledFab.PNG>
-Package pdftex.def Info: ./Imagenes/IV-ledFab.PNG  used on input line 93.
+Package pdftex.def Info: ./Imagenes/IV-ledFab.PNG  used on input line 97.
 (pdftex.def)             Requested size: 186.12387pt x 167.96591pt.
- [2 <./Imagenes/CurvaZenerEntera.png> <./Imagenes/IVZener.PNG> <./Imagenes/Curv
-aDiodosLed.png> <./Imagenes/IV-ledFab.PNG>]
+[2 <./Imagenes/CurvaZenerEntera.png> <./Imagenes/IVZener.PNG> <./Imagenes/Curva
+DiodosLed.png> <./Imagenes/IV-ledFab.PNG>]
 
-LaTeX Warning: Reference `fig:diodozen' on page 3 undefined on input line 102.
-
-
-LaTeX Warning: Reference `fig:diodorect' on page 3 undefined on input line 102.
+LaTeX Warning: Reference `fig:diodozen' on page 3 undefined on input line 109.
 
 
-<./Imagenes/commonEmitter.jpg, id=37, 584.93532pt x 312.41719pt>
+LaTeX Warning: Reference `fig:diodorect' on page 3 undefined on input line 109.
+
+
+
+LaTeX Warning: Reference `fig:diodoled' on page 3 undefined on input line 109.
+
+<./Imagenes/commonEmitter.jpg, id=39, 584.93532pt x 312.41719pt>
 File: ./Imagenes/commonEmitter.jpg Graphic file (type jpg)
 <use ./Imagenes/commonEmitter.jpg>
-Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 109.
+Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 116.
 (pdftex.def)             Requested size: 297.80121pt x 159.06369pt.
-<./Imagenes/CircEq.PNG, id=38, 973.38657pt x 211.54031pt>
+<./Imagenes/CircEq.PNG, id=40, 973.38657pt x 211.54031pt>
 File: ./Imagenes/CircEq.PNG Graphic file (type png)
 <use ./Imagenes/CircEq.PNG>
-Package pdftex.def Info: ./Imagenes/CircEq.PNG  used on input line 118.
+Package pdftex.def Info: ./Imagenes/CircEq.PNG  used on input line 125.
 (pdftex.def)             Requested size: 496.33032pt x 107.86475pt.
-<./Imagenes/RtaF2.png, id=39, 462.528pt x 346.896pt>
+<./Imagenes/RtaF2.png, id=41, 462.528pt x 346.896pt>
 File: ./Imagenes/RtaF2.png Graphic file (type png)
 <use ./Imagenes/RtaF2.png>
-Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 131.
+Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 138.
 (pdftex.def)             Requested size: 446.69426pt x 335.03836pt.
 [3 <./Imagenes/commonEmitter.jpg> <./Imagenes/CircEq.PNG>] [4 <./Imagenes/RtaF2
 .png>]
-<./Imagenes/RtaF3.png, id=51, 812.28468pt x 379.4175pt>
-File: ./Imagenes/RtaF3.png Graphic file (type png)
-<use ./Imagenes/RtaF3.png>
-Package pdftex.def Info: ./Imagenes/RtaF3.png  used on input line 188.
-(pdftex.def)             Requested size: 446.69426pt x 208.64552pt.
-<./Imagenes/RtaF3RC.png, id=52, 1025.33063pt x 458.46281pt>
-File: ./Imagenes/RtaF3RC.png Graphic file (type png)
-<use ./Imagenes/RtaF3RC.png>
-Package pdftex.def Info: ./Imagenes/RtaF3RC.png  used on input line 195.
-(pdftex.def)             Requested size: 496.33032pt x 221.92746pt.
- [5 <./Imagenes/RtaF3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 202--207
-
- []
-
-[6 <./Imagenes/RtaF3RC.png>] ("TP FE.aux"
+<./Imagenes/capVsDiodo.png, id=51, 628.0263pt x 363.5181pt>
+File: ./Imagenes/capVsDiodo.png Graphic file (type png)
+<use ./Imagenes/capVsDiodo.png>
+Package pdftex.def Info: ./Imagenes/capVsDiodo.png  used on input line 195.
+(pdftex.def)             Requested size: 446.69426pt x 258.56558pt.
+ [5 <./Imagenes/capVsDiodo.png>] ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -864,15 +876,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 23065 strings out of 492945
- 526280 string characters out of 3126696
- 654009 words of memory out of 3000000
- 26590 multiletter control sequences out of 15000+200000
+ 23108 strings out of 492945
+ 526870 string characters out of 3126696
+ 654203 words of memory out of 3000000
+ 26630 multiletter control sequences out of 15000+200000
  18175 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,55p,1000b,939s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -891,9 +900,9 @@ lic/amsfonts/cm/cmr8.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Acer/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Acer/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "TP FE.pdf" (7 pages, 421690 bytes).
+Output written on "TP FE.pdf" (6 pages, 422311 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
