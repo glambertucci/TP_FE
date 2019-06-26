@@ -70,6 +70,13 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 	\caption{Superposición de las curva característica medida/simulada del diodo rectificador 1N4148.}
 	\label{fig:diodorect}
 \end{figure}
+Mientras que la gráfica provista por el fabricante es : 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{IV1N4007.PNG}
+	\caption{I-V Fabricante 1N4007}
+	\label{fig:diodozenfab}
+\end{figure}
 
 \begin{figure}[H]
 	\centering
@@ -77,7 +84,14 @@ Se realizó una superposición de las curvas de valores medidos en el laboratori
 	\caption{Superposición de las curva característica medida/simulada del diodo zener.}
 	\label{fig:diodozen}
 \end{figure}
+Se comparará las mediciones y la simulacion con la datasheet de un diodo zener de 12 V 1n4748A.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{IVZener.PNG}
+	\caption{I-V Zener Fabricante}
+	\label{fig:diodozen}
+\end{figure}
 Se puede observar que tanto para el diodo rectificador como para el diodo zener las simulaciones realizadas coinciden en su gran mayoría con las mediciones de laboratorio. La mayor discrepancia se encuentra en la tensión de zener $V_Z$, ya que en las simulaciones se puede observar claramente que $V_Z=12 \ V$ en módulo, mientras que las mediciones en el laboratorio sugieren que $V_Z \approx 11,5 \ V$ en módulo.
 
 \begin{figure}[H]
@@ -87,7 +101,14 @@ Se puede observar que tanto para el diodo rectificador como para el diodo zener 
 	\label{fig:diodoled}
 \end{figure}
 
-Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 V a 5 V). Además, como los diodos poseen un comportamiento capacitivo, se decidió usar las puntas del osciloscopio en x10. Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales atribuidas al ruido electromagnético captado por el osciloscopio, razón por la cual la curva no se observa suave, se decidió utilizar un suavizamiento exponencial para reducir esta. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{CurvaDiodosLed.png}
+	\caption{curva característica del diodo LED por el fabricante.}
+	\label{fig:diodoled}
+\end{figure}
+Para realizar las mediciones en el diodo LED se optó por el uso del osciloscopio. Se utilizaron dos canales, uno para medir la caída de potencial sobre el diodo y otro para medir la tensión suministrada por la fuente (rampa de 0 V a 5 V). Además, como los diodos poseen un comportamiento capacitivo, se decidió usar las puntas del osciloscopio en x10, ya que estas tienen una mayor resistencia y menor capacitancia. Luego, se le restó a esta última la diferencia de potencial en el diodo para obtener la caída sobre la resistencia. Dividiendo por el valor de la resistencia se logró obtener la curva de la corriente. Dada la dispersión de las señales atribuidas al ruido electromagnético captado por el osciloscopio, razón por la cual la curva no se observa suave, se decidió utilizar un suavizamiento exponencial para reducir esta. Finalmente, se graficó de manera superpuesta a la curva de la simulación la curva de la corriente en función de la tensión.
+
 Se puede observar que existen leves discrepancias entre la curva de la simulación y la medición de laboratorio. La mayor diferencia se encuentra en la tensión de foward del LED,en  la cual la discrepancia es de $\approx 0,2 \ V$.
 Como el LED utilizado para simulación no fue exactamente el utilizado en el laboratorio, sino fue elegido a causa de las similares características, se consideran aceptables las diferencias entre ambas curvas.
 
