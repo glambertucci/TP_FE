@@ -102,7 +102,7 @@ Analizando la función transferencia de tensión de este, se observa que la tran
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{RtaF2.png}	
+	\includegraphics[width=\textwidth]{RtaF2.png}	
 	\caption{Diagrama de BODE para el cirucito dado.}
 	\label{fig:bode}
 \end{figure}
@@ -133,7 +133,7 @@ Finalmente se analizó la respuesta en frecuencia del circuito (\ref{circ:3}).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{RtaF3.png}	
+	\includegraphics[width=\textwidth]{RtaF3.png}	
 	\caption{Respuesta en frecuencia del diodo D1N4007.}
 	\label{fig:rtaf}
 \end{figure}
