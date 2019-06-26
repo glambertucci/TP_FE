@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
 
 
 def not_num(content):
@@ -76,9 +77,13 @@ data = read_file_spice("Ej2.txt")
 modulo = np.asarray(data["abs"])
 fase = np.asarray(data["pha"])
 frec = np.asarray(data["f"])
-plt.plot(frec,modulo,'r')
-plt.plot(frec,fase,'b')
-
+#542
+for x in range (542,len(fase)):
+    fase[x] = fase[x]-360
+plt.plot(frec,modulo,'b',label ='Modulo')
+plt.plot(frec,fase,'b--',label = 'Fase')
+legend = plt.legend(loc='lower left', shadow=True, fontsize='x-large')
+plt.xscale('log')
 plt.ylabel("Fase/Amplitud")
 plt.xlabel("Frecuencia")
 plt.grid(which='major', linestyle='-', linewidth=0.3, color='black')
