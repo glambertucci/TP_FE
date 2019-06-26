@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  25 JUN 2019 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.22)  25 JUN 2019 22:09
 entering extended mode
 **"./TP FE.tex"
 ("TP FE.tex"
@@ -165,7 +165,31 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.st
 y"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
+cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count106
 \float@exts=\toks24
@@ -189,11 +213,7 @@ cs.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
-("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
-.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
+)
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
@@ -291,24 +311,6 @@ File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
 gfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))
-("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
-cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
 ("C:\Users\Acer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
 fcore.code.tex"
 Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
@@ -599,20 +601,20 @@ LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `"TP FE.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -737,38 +739,38 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: ./Imagenes/CurvaDiodoRectificador.png Graphic file (type png)
 <use ./Imagenes/CurvaDiodoRectificador.png>
 Package pdftex.def Info: ./Imagenes/CurvaDiodoRectificador.png  used on input l
-ine 68.
+ine 69.
 (pdftex.def)             Requested size: 248.16516pt x 186.12477pt.
 <./Imagenes/CurvaZenerEntera.png, id=15, 462.528pt x 346.896pt>
 File: ./Imagenes/CurvaZenerEntera.png Graphic file (type png)
 <use ./Imagenes/CurvaZenerEntera.png>
-Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 75
+Package pdftex.def Info: ./Imagenes/CurvaZenerEntera.png  used on input line 76
 .
 (pdftex.def)             Requested size: 248.16516pt x 186.12477pt.
  [1 <./Imagenes/CurvaDiodoRectificador.png>]
 <./Imagenes/CurvaDiodosLed.png, id=23, 1387.584pt x 710.4141pt>
 File: ./Imagenes/CurvaDiodosLed.png Graphic file (type png)
 <use ./Imagenes/CurvaDiodosLed.png>
-Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 82.
+Package pdftex.def Info: ./Imagenes/CurvaDiodosLed.png  used on input line 83.
 (pdftex.def)             Requested size: 248.16516pt x 127.04517pt.
 <./Imagenes/commonEmitter.jpg, id=24, 584.93532pt x 312.41719pt>
 File: ./Imagenes/commonEmitter.jpg Graphic file (type jpg)
 <use ./Imagenes/commonEmitter.jpg>
-Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 92.
+Package pdftex.def Info: ./Imagenes/commonEmitter.jpg  used on input line 95.
 (pdftex.def)             Requested size: 148.9006pt x 79.52946pt.
-<./Imagenes/RtaF2.png, id=25, 1442.38875pt x 693.34032pt>
+<./Imagenes/RtaF2.png, id=25, 870.25125pt x 416.30531pt>
 File: ./Imagenes/RtaF2.png Graphic file (type png)
 <use ./Imagenes/RtaF2.png>
-Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 102.
-(pdftex.def)             Requested size: 248.16516pt x 119.28394pt.
+Package pdftex.def Info: ./Imagenes/RtaF2.png  used on input line 105.
+(pdftex.def)             Requested size: 496.33032pt x 237.43623pt.
  [2 <./Imagenes/CurvaZenerEntera.png> <./Imagenes/CurvaDiodosLed.png> <./Imagen
-es/commonEmitter.jpg> <./Imagenes/RtaF2.png>]
-<./Imagenes/RtaF3.png, id=32, 1028.34187pt x 456.95718pt>
+es/commonEmitter.jpg>]
+<./Imagenes/RtaF3.png, id=31, 934.99312pt x 402.00188pt>
 File: ./Imagenes/RtaF3.png Graphic file (type png)
 <use ./Imagenes/RtaF3.png>
-Package pdftex.def Info: ./Imagenes/RtaF3.png  used on input line 130.
-(pdftex.def)             Requested size: 347.4297pt x 154.3872pt.
-[3 <./Imagenes/RtaF3.png>] [4] ("TP FE.aux"
+Package pdftex.def Info: ./Imagenes/RtaF3.png  used on input line 136.
+(pdftex.def)             Requested size: 496.33032pt x 213.39734pt.
+ [3 <./Imagenes/RtaF2.png> <./Imagenes/RtaF3.png>] [4] ("TP FE.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -777,13 +779,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21768 strings out of 492945
- 502613 string characters out of 3126696
- 645007 words of memory out of 3000000
+ 21769 strings out of 492945
+ 502618 string characters out of 3126696
+ 632551 words of memory out of 3000000
  25311 multiletter control sequences out of 15000+200000
  17867 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,55p,413b,916s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,55p,413b,916s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmcsc10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fon
@@ -795,9 +797,9 @@ rs/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb>
-Output written on "TP FE.pdf" (5 pages, 315043 bytes).
+Output written on "TP FE.pdf" (5 pages, 300328 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
